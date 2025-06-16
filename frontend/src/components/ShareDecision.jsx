@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './ShareDecision.css';
 
 export default function ShareDecision({
     shareThrough,

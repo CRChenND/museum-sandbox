@@ -1,3 +1,5 @@
+import './CharacterMessage.css';
+
 export default function CharacterMessage({ character, onNext, onBack }) {
   return (
     <div className="character-container">
