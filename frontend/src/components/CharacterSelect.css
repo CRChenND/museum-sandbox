@@ -1,0 +1,76 @@
+/* Styles for character selection component */
+.character-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  margin-top: 10vh;
+}
+
+.app > .character-grid {
+  flex-grow: 1;
+}
+
+.character-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  width: 160px;
+  opacity: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-button:focus {
+  outline: none;
+}
+
+.character-button.selected {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.character-button img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+}
+
+.character-button.selected img {
+  border-color: transparent;
+}
+
+.character-button.selected {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.character-button p {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.fixed-next-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #008c44;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 999;
+}
