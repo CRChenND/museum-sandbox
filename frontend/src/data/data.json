@@ -1,0 +1,38 @@
+{
+    "characters": [
+      {
+        "id": "butterbean",
+        "name": "Butterbean",
+        "avatar": "/avatars/butterbean.png",
+        "message": "Hi! I'm Butterbean. Let’s explore how to stay safe online together!"
+      },
+      {
+        "id": "nadia",
+        "name": "Nadia",
+        "avatar": "/avatars/nadia.png",
+        "message": "Hi! I'm Nadia. I enjoy discovering new things online. Let’s learn how to stay smart and safe!"
+      },
+      {
+        "id": "toni",
+        "name": "Toni",
+        "avatar": "/avatars/toni.png",
+        "message": "Hi! I'm Toni. I like making videos, but I want to make sure I share the right things!"
+      },
+      {
+        "id": "mateo",
+        "name": "Mateo",
+        "avatar": "/avatars/mateo.png",
+        "message": "Hi! I'm Mateo. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share. Can you help me?"
+      }
+    ],
+    "shareThrough": [
+      { "name": "Game Channel", "icon": "/icons/game-channel.png" },
+      { "name": "Direct Message", "icon": "/icons/social-media.png" },
+      { "name": "Group Chat", "icon": "/icons/class-chat.png" }
+    ],
+    "shareWith": [
+      { "name": "Stranger", "icon": "/icons/stranger.png" },
+      { "name": "Friend in life", "icon": "/icons/friend.png" }
+    ]
+  }
+  
