@@ -714,5 +714,25 @@
         "step": 0,
         "character": "Mateo",
         "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 22:26:16",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 22:26:17",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
     }
 ]

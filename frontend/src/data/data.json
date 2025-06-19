@@ -3,41 +3,41 @@
       {
         "id": "butterbean",
         "name": "Butterbean",
-        "avatar": "/avatars/butterbean.png",
+        "avatar": "/museum-sandbox/avatars/butterbean.png",
         "message": "Hi! I'm Butterbean. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
         "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
       },
       {
         "id": "nadia",
         "name": "Nadia",
-        "avatar": "/avatars/nadia.png",
+        "avatar": "/museum-sandbox/avatars/nadia.png",
         "message": "Hi! I'm Nadia. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
         "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
       },
       {
         "id": "toni",
         "name": "Toni",
-        "avatar": "/avatars/toni.png",
+        "avatar": "/museum-sandbox/avatars/toni.png",
         "message": "Hi! I'm Toni. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
         "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
       },
       {
         "id": "mateo",
         "name": "Mateo",
-        "avatar": "/avatars/mateo.png",
+        "avatar": "/museum-sandbox/avatars/mateo.png",
         "message": "Hi! I'm Mateo. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
         "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
       }
     ],
     "shareThrough": [
-      { "name": "Game Channel", "icon": "/icons/channel/game.png" },
-      { "name": "Direct Message", "icon": "/icons/channel/dm.png" },
-      { "name": "Group Chat", "icon": "/icons/channel/group.png" }
+      { "name": "Game Channel", "icon": "/museum-sandbox/icons/channel/game.png" },
+      { "name": "Direct Message", "icon": "/museum-sandbox/icons/channel/dm.png" },
+      { "name": "Group Chat", "icon": "/museum-sandbox/icons/channel/group.png" }
     ],
     "shareWith": [
-      { "name": "Stranger", "icon": "/icons/people/stranger.png" },
-      { "name": "Friend in life", "icon": "/icons/people/friend.png" },
-      { "name": "Unknown", "icon": "/icons/people/unknown.png" }
+      { "name": "Stranger", "icon": "/museum-sandbox/icons/people/stranger.png" },
+      { "name": "Friend in life", "icon": "/museum-sandbox/icons/people/friend.png" },
+      { "name": "Unknown", "icon": "/museum-sandbox/icons/people/unknown.png" }
     ]
   }
   

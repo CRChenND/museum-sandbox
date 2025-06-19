@@ -2,103 +2,103 @@
     "dm_friend_address": [
       {
         "speech": "Oops… I just told my friend my home address.",
-        "image": "/gifs/address/dm_friend_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/dm_friend_address_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "dm_stranger_address": [
       {
         "speech": "Oops… I just told a stranger my home address.",
-        "image": "/gifs/address/dm_stranger_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/dm_stranger_address_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/address/dm_stranger_address_share_harass.gif"
+        "image": "/museum-sandbox/gifs/address/dm_stranger_address_share_harass.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "dm_unknown_address": [
       {
         "speech": "Wait... I entered my home address.",
-        "image": "/gifs/address/dm_unknown_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/dm_unknown_address_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "game_friend_address": [
       {
         "speech": "Oops, I just gave my home address to my friend, but in the game channel.",
-        "image": "/gifs/address/game_friend_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/game_friend_address_share.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/game_hacked.gif"
+        "image": "/museum-sandbox/gifs/game_hacked.gif"
       }
     ],
     "game_stranger_address": [
       {
         "speech": "Oops, I just gave my home address to a stranger in the game channel.",
-        "image": "/gifs/address/game_stranger_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/game_stranger_address_share.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/game_hacked.gif"
+        "image": "/museum-sandbox/gifs/game_hacked.gif"
       }
     ],
     "game_unknown_address": [
       {
         "speech": "Wait... I entered my home address.",
-        "image": "/gifs/address/game_unknown_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/game_unknown_address_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "group_friend_address": [
       {
         "speech": "Oops, I just gave my home address to my friend, but in the group chat.",
-        "image": "/gifs/address/group_friend_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/group_friend_address_share.gif"
       },
       {
         "speech": "Someone started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/address/group_all_address_share_harass.gif"
+        "image": "/museum-sandbox/gifs/address/group_all_address_share_harass.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/chat_hacked.gif"
+        "image": "/museum-sandbox/gifs/chat_hacked.gif"
       }
     ],
     "group_stranger_address": [
       {
         "speech": "Oops, I just gave my home address to a stranger in the group chat.",
-        "image": "/gifs/address/group_stranger_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/group_stranger_address_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/address/group_all_address_share_harass.gif"
+        "image": "/museum-sandbox/gifs/address/group_all_address_share_harass.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/chat_hacked.gif"
+        "image": "/museum-sandbox/gifs/chat_hacked.gif"
       }
     ],
     "group_unknown_address": [
       {
         "speech": "Wait... I entered my home address.",
-        "image": "/gifs/address/group_unknown_address_share.gif"
+        "image": "/museum-sandbox/gifs/address/group_unknown_address_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
 
@@ -107,103 +107,103 @@
     "dm_friend_birthday": [
       {
         "speech": "Oops… I just told my friend my birthday.",
-        "image": "/gifs/birthday/dm_friend_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/dm_friend_birthday_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "dm_stranger_birthday": [
       {
         "speech": "Oops… I just told a stranger my birthday.",
-        "image": "/gifs/birthday/dm_stranger_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/dm_stranger_birthday_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/birthday/dm_stranger_birthday_share_harass.gif"
+        "image": "/museum-sandbox/gifs/birthday/dm_stranger_birthday_share_harass.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/chat_hacked.gif"
+        "image": "/museum-sandbox/gifs/chat_hacked.gif"
       }
     ],
     "dm_unkown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
-        "image": "/gifs/birthday/dm_unknown_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/dm_unknown_birthday_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "game_friend_birthday": [
       {
         "speech": "Oops, I just gave my birthday to my friend, but in the game channel.",
-        "image": "/gifs/birthday/game_friend_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/game_friend_birthday_share.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/game_hacked.gif"
+        "image": "/museum-sandbox/gifs/game_hacked.gif"
       }
     ],
     "game_stranger_birthday": [
       {
         "speech": "Oops, I just gave my birthday to a stranger in the game channel.",
-        "image": "/gifs/birthday/game_stranger_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/game_stranger_birthday_share.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/game_hacked.gif"
+        "image": "/museum-sandbox/gifs/game_hacked.gif"
       }
     ],
     "game_unkown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
-        "image": "/gifs/birthday/game_unknown_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/game_unknown_birthday_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "group_friend_birthday": [
       {
         "speech": "Oops, I just gave my home address to my friend, but in the group chat.",
-        "image": "/gifs/birthday/group_friend_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/group_friend_birthday_share.gif"
       },
       {
         "speech": "Someone started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/birthday/group_all_birthday_share_harass.gif"
+        "image": "/museum-sandbox/gifs/birthday/group_all_birthday_share_harass.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/chat_hacked.gif"
+        "image": "/museum-sandbox/gifs/chat_hacked.gif"
       }
     ],
     "group_stranger_birthday": [
       {
         "speech": "Oops, I just gave my birthday to a stranger in the group chat.",
-        "image": "/gifs/birthday/group_stranger_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/group_stranger_birthday_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/birthday/group_all_birthday_share_harass.gif"
+        "image": "/museum-sandbox/gifs/birthday/group_all_birthday_share_harass.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "group_unkown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
-        "image": "/gifs/birthday/group_unknown_birthday_share.gif"
+        "image": "/museum-sandbox/gifs/birthday/group_unknown_birthday_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
 
@@ -212,57 +212,57 @@
     "dm_friend_city": [
       {
         "speech": "Oops… I just told my friend the city I live in.",
-        "image": "/gifs/city/dm_friend_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/dm_friend_city_share.gif"
       }
     ],
     "dm_stranger_city": [
       {
         "speech": "Oops… I just told a stranger the city I live in.",
-        "image": "/gifs/city/dm_stranger_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/dm_stranger_city_share.gif"
       },
       {
         "speech": "Wait! My account’s acting weird—OMG, it got hacked!",
-        "image": "/gifs/chat_hacked.gif"
+        "image": "/museum-sandbox/gifs/chat_hacked.gif"
       }
     ],
     "game_friend_city": [
       {
         "speech": "Oops, I just gave the city I live in to my friend, but in the game channel.",
-        "image": "/gifs/city/game_friend_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/game_friend_city_share.gif"
       }
     ],
     "game_stranger_city": [
       {
         "speech": "Oops, I just gave the city I live in to a stranger in the game channel.",
-        "image": "/gifs/city/game_stranger_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/game_stranger_city_share.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
     "group_friend_city": [
       {
         "speech": "Oops, I just gave the city I live in to my friend, but in the group chat.",
-        "image": "/gifs/city/group_friend_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/group_friend_city_share.gif"
       },
       {
         "speech": "Someone started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/city/group_all_city_share_harass.gif"
+        "image": "/museum-sandbox/gifs/city/group_all_city_share_harass.gif"
       }
     ],
     "group_stranger_city": [
       {
         "speech": "Oops, I just gave the city I live in to a stranger in the group chat.",
-        "image": "/gifs/city/group_stranger_city_share.gif"
+        "image": "/museum-sandbox/gifs/city/group_stranger_city_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/city/group_all_city_share_harass.gif"
+        "image": "/museum-sandbox/gifs/city/group_all_city_share_harass.gif"
       },
       {
         "speech": "Ugh, I keep getting weird scam texts!",
-        "image": "/gifs/spam.gif"
+        "image": "/museum-sandbox/gifs/spam.gif"
       }
     ],
 
@@ -271,37 +271,37 @@
     "dm_friend_color": [
       {
         "speech": "I shared with my friend that my favorite color is blue.",
-        "image": "/gifs/color/dm_friend_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/dm_friend_color_share.gif"
       }
     ],
     "dm_stranger_color": [
       {
         "speech": "I said my favorite color is blue to someone I don’t really know.",
-        "image": "/gifs/color/dm_stranger_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/dm_stranger_color_share.gif"
       }
     ],
     "game_friend_color": [
       {
         "speech": "Aha oops—I just said my favorite color is blue in front of everyone.",
-        "image": "/gifs/color/game_friend_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/game_friend_color_share.gif"
       }
     ],
     "game_stranger_color": [
       {
         "speech": "Oh… I told someone in the game that my favorite color is blue.",
-        "image": "/gifs/color/game_stranger_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/game_stranger_color_share.gif"
       }
     ],
     "group_friend_color": [
       {
         "speech": "I just told my friend my favorite color is blue… but in the group chat.",
-        "image": "/gifs/color/group_friend_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/group_friend_color_share.gif"
       }
     ],
     "group_stranger_color": [
       {
         "speech": "Haha oops—I just said I like the color blue in front of everyone.",
-        "image": "/gifs/color/group_stranger_color_share.gif"
+        "image": "/museum-sandbox/gifs/color/group_stranger_color_share.gif"
       }
     ],
 
@@ -310,37 +310,37 @@
     "dm_friend_dog": [
       {
         "speech": "I shared with my friend that I have a dog.",
-        "image": "/gifs/dog/dm_friend_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/dm_friend_dog_share.gif"
       }
     ],
     "dm_stranger_dog": [
       {
         "speech": "I said I have a dog to someone I don’t really know.",
-        "image": "/gifs/dog/dm_stranger_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/dm_stranger_dog_share.gif"
       }
     ],
     "game_friend_dog": [
       {
         "speech": "Haha oops—I just said I have a dog in front of everyone.",
-        "image": "/gifs/dog/game_friend_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/game_friend_dog_share.gif"
       }
     ],
     "game_stranger_dog": [
       {
         "speech": "Oh… I told someone in the game I have a dog.",
-        "image": "/gifs/dog/game_stranger_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/game_stranger_dog_share.gif"
       }
     ],
     "group_friend_dog": [
       {
         "speech": "I just told my friend I have a dog… but in the group chat.",
-        "image": "/gifs/dog/group_friend_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/group_friend_dog_share.gif"
       }
     ],
     "group_stranger_dog": [
       {
         "speech": "Haha oops—I just said I have a dog in front of everyone.",
-        "image": "/gifs/dog/group_stranger_dog_share.gif"
+        "image": "/museum-sandbox/gifs/dog/group_stranger_dog_share.gif"
       }
     ],
 
@@ -349,37 +349,37 @@
     "dm_friend_ice": [
       {
         "speech": "I shared with my friend that I like ice cream.",
-        "image": "/gifs/ice/dm_friend_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/dm_friend_ice_share.gif"
       }
     ],
     "dm_stranger_ice": [
       {
         "speech": "I said I like ice cream to someone I don’t really know.",
-        "image": "/gifs/ice/dm_stranger_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/dm_stranger_ice_share.gif"
       }
     ],
     "game_friend_ice": [
       {
         "speech": "Haha oops—I just said I like ice cream in front of everyone.",
-        "image": "/gifs/ice/game_friend_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/game_friend_ice_share.gif"
       }
     ],
     "game_stranger_ice": [
       {
         "speech": "Oh… I told someone in the game I like ice cream.",
-        "image": "/gifs/ice/game_stranger_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/game_stranger_ice_share.gif"
       }
     ],
     "group_friend_ice": [
       {
         "speech": "I just told my friend I like ice cream… but in the group chat.",
-        "image": "/gifs/ice/group_friend_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/group_friend_ice_share.gif"
       }
     ],
     "group_stranger_ice": [
       {
         "speech": "Haha oops—I just said I like ice cream in front of everyone.",
-        "image": "/gifs/ice/group_stranger_ice_share.gif"
+        "image": "/museum-sandbox/gifs/ice/group_stranger_ice_share.gif"
       }
     ],
 
@@ -388,37 +388,37 @@
     "dm_friend_playground": [
       {
         "speech": "Oops… I just told my friend I go to the playground after school.",
-        "image": "/gifs/playground/dm_friend_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/dm_friend_playground_share.gif"
       }
     ],
     "dm_stranger_playground": [
       {
         "speech": "Oops… I just told a stranger I go to the playground after school.",
-        "image": "/gifs/playground/dm_stranger_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/dm_stranger_playground_share.gif"
       }
     ],
     "game_friend_playground": [
       {
         "speech": "Oops, I just said I go to the playground after school to my friend, but in the game channel.",
-        "image": "/gifs/playground/game_friend_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/game_friend_playground_share.gif"
       }
     ],
     "game_stranger_playground": [
       {
         "speech": "Oops, I just said I go to the playground after school to a stranger in the game channel.",
-        "image": "/gifs/playground/game_stranger_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/game_stranger_playground_share.gif"
       }
     ],
     "group_friend_playground": [
       {
         "speech": "Oops, I just said I go to the playground after school to my friend, but in the group chat.",
-        "image": "/gifs/playground/group_friend_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/group_friend_playground_share.gif"
       }
     ],
     "group_stranger_playground": [
       {
         "speech": "Oops, I just said I go to the playground after school to a stranger in the group chat.",
-        "image": "/gifs/playground/group_stranger_playground_share.gif"
+        "image": "/museum-sandbox/gifs/playground/group_stranger_playground_share.gif"
       }
     ],
 
@@ -427,49 +427,49 @@
     "dm_friend_trip": [
       {
         "speech": "Oops… I just told my friend about my trip from last summer.",
-        "image": "/gifs/trip/dm_friend_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/dm_friend_trip_share.gif"
       }
     ],
     "dm_stranger_trip": [
       {
         "speech": "Oops… I just told a stranger about my trip from last summer.",
-        "image": "/gifs/trip/dm_stranger_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/dm_stranger_trip_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/trip/dm_stranger_trip_share_harass.gif"
+        "image": "/museum-sandbox/gifs/trip/dm_stranger_trip_share_harass.gif"
       }
     ],
     "game_friend_trip": [
       {
         "speech": "Oops, I just shared my trip from last summer with my friend, but in the game channel.",
-        "image": "/gifs/trip/game_friend_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/game_friend_trip_share.gif"
       }
     ],
     "game_stranger_trip": [
       {
         "speech": "Oops, I just shared my trip from last summer with a stranger in the game channel.",
-        "image": "/gifs/trip/game_stranger_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/game_stranger_trip_share.gif"
       }
     ],
     "group_friend_trip": [
       {
         "speech": "Oops, I just shared my trip from last summer with my friend, but in the group chat.",
-        "image": "/gifs/trip/group_friend_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/group_friend_trip_share.gif"
       },
       {
         "speech": "Someone started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/trip/group_all_trip_share_harass.gif"
+        "image": "/museum-sandbox/gifs/trip/group_all_trip_share_harass.gif"
       }
     ],
     "group_stranger_trip": [
       {
         "speech": "Oops, I just shared my trip from last summer with a stranger in the group chat.",
-        "image": "/gifs/trip/group_stranger_trip_share.gif"
+        "image": "/museum-sandbox/gifs/trip/group_stranger_trip_share.gif"
       },
       {
         "speech": "They started asking me some creepy questions, and now I feel really uncomfortable!",
-        "image": "/gifs/trip/group_all_trip_share_harass.gif"
+        "image": "/museum-sandbox/gifs/trip/group_all_trip_share_harass.gif"
       }
     ]
   }
