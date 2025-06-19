@@ -1,0 +1,150 @@
+.combo-container {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .combo-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  .combo-card {
+    width: 220px;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .combo-card img {
+    width: 120px;
+    height: 120px;
+    margin: 2rem 0;
+  }
+  
+  .combo-card.purple {
+    background-color: #6a1b9a;
+  }
+  
+  .combo-card.orange {
+    background-color: #bf360c;
+  }
+  
+  .combo-card.blue {
+    background-color: #0d47a1;
+  }
+  
+  .combo-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .combo-buttons button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .combo-action {
+    margin-top: 1rem;
+  }
+  
+  .combo-action button {
+    background-color: #008c44;
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .combo-action button:hover {
+    background-color: #006c2b;
+  }
+
+  .combo-buttons .arrow {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #6a1b9a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    outline: none;
+  }
+  
+  .combo-buttons .arrow img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  
+  .arrow.purple {
+    background-color: #6a1b9a;
+  }
+  
+  .arrow.orange {
+    background-color: #bf360c;
+  }
+
+  .arrow.blue {
+    background-color: #0d47a1;
+  }
+  
+  .arrow:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  
+  .arrow:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .combo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .combo-title.purple {
+    color: #6a1b9a;
+  }
+  
+  .combo-title.orange {
+    color: #bf360c;
+  }
+  
+  .combo-title.blue {
+    color: #0d47a1;
+  }
+
+  .combo-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    margin-top: 0;
+  }
+  
+  .combo-card p {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }

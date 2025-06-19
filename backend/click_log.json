@@ -1,0 +1,718 @@
+[
+    {
+        "timestamp": "2025-06-16 17:18:40",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nadia",
+        "extra": {
+            "characterId": "nadia"
+        }
+    },
+    {
+        "timestamp": "2025-06-16 17:18:41",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Toni",
+        "extra": {
+            "characterId": "toni"
+        }
+    },
+    {
+        "timestamp": "2025-06-16 17:18:42",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": {
+            "characterId": "butterbean"
+        }
+    },
+    {
+        "timestamp": "2025-06-16 17:19:28",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-16 17:19:29",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-16 17:19:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-16 17:32:46",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 13:47:11",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 15:08:57",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Toni",
+        "extra": {
+            "characterId": "toni"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 15:08:58",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Toni",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 17:04:36",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 17:04:36",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 17:08:40",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:20:35",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:42:52",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:42:53",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:46:28",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:46:28",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:47:37",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:47:37",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:48:20",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:48:20",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:49:33",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:49:34",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:50:43",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:50:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:51:27",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:51:28",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:51:37",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Butterbean",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:52:32",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:52:33",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 18:59:22",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 18:59:23",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 19:15:43",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 19:15:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 19:18:07",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 19:18:07",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 19:36:18",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 19:36:19",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-17 19:47:18",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-17 19:47:19",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-18 05:17:48",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-18 05:17:49",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 13:47:05",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 13:47:06",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 13:52:20",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 13:52:21",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 13:58:17",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 13:58:18",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 18:56:00",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 18:56:00",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 18:56:33",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 18:56:34",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 19:21:07",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 20:10:12",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 20:10:12",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 20:11:39",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 20:11:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 20:11:45",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 20:53:56",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 20:53:57",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 21:11:49",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 21:11:50",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 21:16:36",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 21:16:36",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 21:31:27",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 21:31:27",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 21:32:22",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 21:32:23",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 21:33:58",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-06-19 22:16:59",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-06-19 22:17:00",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    }
+]

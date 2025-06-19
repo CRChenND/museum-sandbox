@@ -1,0 +1,89 @@
+.card-row {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px;
+    height: 360px;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    margin-top: 2.5rem; /* 保持下移感 */
+  }
+  
+  .card p{
+    font-size: 1.5rem;
+  }
+
+  /* Color themes */
+  .card.purple {
+    background-color: #6a1b9a;
+  }
+  
+  .card.orange {
+    background-color: #bf360c;
+  }
+  
+  .card.blue {
+    background-color: #0d47a1;
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+
+  .decision-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .risky-button {
+    background-color: #DA300C;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 999;
+    outline: none;
+  }
+  
+  .ok-button {
+    background-color: #008c44;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 999;
+    outline: none;
+  }
+  

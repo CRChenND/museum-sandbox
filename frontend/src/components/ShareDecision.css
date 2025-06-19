@@ -6,7 +6,6 @@
   align-items: flex-start;
   gap: 1rem;
   flex-wrap: nowrap;
-  margin-top: 2rem;
   overflow-x: auto;
   padding-bottom: 2rem;
 }
@@ -17,21 +16,46 @@
   gap: 1rem;
 }
 
+.carousel-title {
+  font-size: 1.4rem;     /* 放大字体 */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.purple-text {
+  color: #6a1b9a;
+}
+
+.orange-text {
+  color: #bf360c;
+}
+
+
 .share-card {
-  width: 160px;
-  height: 200px;
+  width: 200px;
+  height: 260px;
   padding: 1rem;
-  border-radius: 12px;
+  border-radius: 4px;
   text-align: center;
   color: white;
   font-weight: bold;
-  flex-shrink: 0;
+  font-size: 1.2rem; /* 放大文字 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .share-card img {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 0.5rem;
+  width: 120px;
+  height: 120px;
+  margin-top: 2.5rem; /* 保持下移感 */
+}
+
+.share-card {
+  font-size: 1.5rem; /* 放大文字（原为 1.2rem） */
 }
 
 .share-card.purple {
@@ -50,6 +74,79 @@
   cursor: pointer;
   color: #444;
 }
+
+.character-speech {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.speech-bubble {
+  background-color: #fff1b5;
+  padding: 0rem 1rem;
+  border-radius: 12px;
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  box-shadow: 0 0 0 2px #ffeb99;
+}
+
+.speech-bubble p {
+  margin: 1rem 0; /* 更紧凑的上下间距，可调为 0 */
+}
+
+.arrow {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #6a1b9a;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  outline: none;            /* 去除点击时的蓝色外圈 */
+}
+
+.arrow img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.arrow.purple {
+  background-color: #6a1b9a;
+}
+
+.arrow.orange {
+  background-color: #bf360c;
+}
+
+.arrow:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.arrow:focus {
+  outline: none;            /* 更稳妥，确保 focus 也无外圈 */
+  box-shadow: none;         /* 有些浏览器还会加阴影 */
+}
+
 
 @media (max-width: 768px) {
   .carousel-row {

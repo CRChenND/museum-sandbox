@@ -1,0 +1,23 @@
+.consequence-container {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .phone-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+  }
+  
+  .phone-image img {
+    width: 480px;
+    height: 480px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .phone-image img:hover {
+    transform: scale(1.05);
+  }
+  

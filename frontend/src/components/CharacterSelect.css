@@ -59,18 +59,3 @@
   font-size: 2.5rem;
   color: #333;
 }
-
-.fixed-next-button {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: #008c44;
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  z-index: 999;
-}

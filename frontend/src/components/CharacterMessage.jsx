@@ -4,17 +4,20 @@ export default function CharacterMessage({ character, onNext, onBack }) {
   return (
     <div className="character-container">
       <h2>What should we do?</h2>
-      <div className="character-message">
-        <img src={character.avatar} alt={character.name} />
-        <div className="speech-bubble">
-          <p>{character.message}</p>
-          <p>Can you help me?</p>
+      <div className="character-main">
+        <div className="character-message">
+          <div className="character-avatar">
+            <div className="character-name">{character.name}</div>
+            <img src={character.avatar} alt={character.name} />
+          </div>
+          <div className="speech-bubble">
+            <p>{character.message}</p>
+            <p>Can you help me?</p>
+          </div>
         </div>
       </div>
-      <div className="button-row">
-        <button className="back-button" onClick={onBack}>Back</button>
-        <button className="next-button" onClick={onNext}>Next</button>
-      </div>
+      <button className="fixed-back-button" onClick={onBack}>Back</button>
+      <button className="fixed-next-button" onClick={onNext}>Next</button>
     </div>
   );
 }

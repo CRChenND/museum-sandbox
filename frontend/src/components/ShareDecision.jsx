@@ -10,25 +10,33 @@ export default function ShareDecision({
     onBack,
     characterName
 }) {
-  const [throughIndex, setThroughIndex] = useState(0);
-  const [withIndex, setWithIndex] = useState(0);
+  
+  const [throughIndex, setThroughIndex] = useState(() => {
+    const index = shareThrough.findIndex(item => item.name === shareChoices.through);
+    return index >= 0 ? index : 0;
+  });
+  
+  const [withIndex, setWithIndex] = useState(() => {
+    const index = shareWith.findIndex(item => item.name === shareChoices.with);
+    return index >= 0 ? index : 0;
+  });
 
-  // 初始化选项（只在组件首次加载时设置）
+  // 主动同步初始选项到 shareChoices（只调用一次）
   useEffect(() => {
     onChange({
-      through: shareThrough[0]?.name || '',
-      with: shareWith[0]?.name || ''
+      through: shareThrough[throughIndex].name,
+      with: shareWith[withIndex].name
     });
-  }, []);
+  }, []); // 只在初次加载时运行
 
-  const handleThroughChange = (direction) => {
-    const newIndex = (throughIndex + direction + shareThrough.length) % shareThrough.length;
+  const handleThroughChange = (dir) => {
+    const newIndex = (throughIndex + dir + shareThrough.length) % shareThrough.length;
     setThroughIndex(newIndex);
     onChange({ through: shareThrough[newIndex].name });
   };
 
-  const handleWithChange = (direction) => {
-    const newIndex = (withIndex + direction + shareWith.length) % shareWith.length;
+  const handleWithChange = (dir) => {
+    const newIndex = (withIndex + dir + shareWith.length) % shareWith.length;
     setWithIndex(newIndex);
     onChange({ with: shareWith[newIndex].name });
   };
@@ -37,45 +45,52 @@ export default function ShareDecision({
   const currentWith = shareWith[withIndex];
 
   return (
-    <div>
-      <h2>Let’s help {characterName || 'your friend'} make a decision!</h2>
-      <div className="character-message">
-        <img src={`/avatars/${characterName.toLowerCase()}.png`} alt={characterName} />
+    <div className="share-container">
+      <h2>Let’s help {characterName || '[Name]'} make a decision!</h2>
+
+      <div className="character-speech">
+        <img className="avatar" src={`/avatars/${characterName.toLowerCase()}.png`} alt={characterName} />
         <div className="speech-bubble">
-          <p>Hi! I'm Mateo. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share. Can you help me?</p>
+          <p>Ready? Let’s choose a scene to explore!</p>
         </div>
       </div>
 
       <div className="carousel-row">
-        <div>
-          <h3>Share through</h3>
+        <div className="carousel-block">
+          <h3 className="carousel-title purple-text">Share through</h3>
           <div className="carousel">
-            <button onClick={() => handleThroughChange(-1)}>&lt;</button>
+            <button className="arrow purple" onClick={() => handleThroughChange(-1)}>
+              <img src="/icons/left-arrow.svg" alt="left" />
+            </button>
             <div className="share-card purple">
-              <img src={currentThrough.icon} alt={currentThrough.name} />
+              <img src={currentThrough.icon || '/icons/icon-placeholder.png'} alt={currentThrough.name} />
               <p>{currentThrough.name}</p>
             </div>
-            <button onClick={() => handleThroughChange(1)}>&gt;</button>
+            <button className="arrow purple" onClick={() => handleThroughChange(1)}>
+              <img src="/icons/right-arrow.svg" alt="right" />
+            </button>
           </div>
         </div>
 
-        <div>
-          <h3>Share with</h3>
+        <div className="carousel-block">
+          <h3 className="carousel-title orange-text">Share with</h3>
           <div className="carousel">
-            <button onClick={() => handleWithChange(-1)}>&lt;</button>
+            <button className="arrow orange" onClick={() => handleWithChange(-1)}>
+              <img src="/icons/left-arrow.svg" alt="left" />
+            </button>
             <div className="share-card orange">
-              <img src={currentWith.icon} alt={currentWith.name} />
+              <img src={currentWith.icon || '/icons/icon-placeholder.png'} alt={currentWith.name} />
               <p>{currentWith.name}</p>
             </div>
-            <button onClick={() => handleWithChange(1)}>&gt;</button>
+            <button className="arrow orange" onClick={() => handleWithChange(1)}>
+              <img src="/icons/right-arrow.svg" alt="right" />
+            </button>
           </div>
         </div>
       </div>
 
-      <div>
-        <button onClick={onBack}>Back</button>
-        <button onClick={onNext}>Next</button>
-      </div>
+      <button className="fixed-back-button" onClick={onBack}>Back</button>
+      <button className="fixed-next-button" onClick={onNext}>Next</button>
     </div>
   );
 }

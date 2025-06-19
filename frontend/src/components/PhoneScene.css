@@ -1,0 +1,47 @@
+.phone-scene-container {
+display: flex;
+flex-direction: column;
+height: 100vh;
+overflow: hidden;
+}
+
+.phone-scene-container > h2 {
+    flex-shrink: 0;
+    background-color: #d00087;
+    color: white;
+    padding: 1rem;
+    padding-left: 2rem;
+    font-size: 3vw;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+.gif-wrapper img {
+width: 500px;
+height: auto;
+max-width: 90vw;
+}
+
+.character-speech {
+display: flex;
+align-items: center;
+gap: 1rem;
+padding: 1.5rem 2rem;
+}
+
+.speech-bubble {
+background-color: #fff1b5;
+padding: 1rem;
+border-radius: 12px;
+font-size: 1.4rem;
+color: black;
+text-align: left;
+box-shadow: 0 0 0 2px #ffeb99;
+}
+
+.avatar {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}

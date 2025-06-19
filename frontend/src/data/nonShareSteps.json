@@ -1,0 +1,326 @@
+{
+    "game_stranger_address": [
+      {
+        "speech": "Good thinking! Some things are just for me and my family.",
+        "image": "/gifs/address/game_stranger_address_nonshare.gif"
+      }
+    ],
+    "game_friend_address": [
+      {
+        "speech": "Nice job! Even though it was my friend, the whole game channel can see it.",
+        "image": "/gifs/address/game_friend_address_nonshare.gif"
+      }
+    ],
+    "game_unknown_address": [
+      {
+        "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/address/game\n_unknown_address_nonshare.gif"
+      }
+    ],
+    "group_unknown_address": [
+      {
+        "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/address/group_unknown_address_nonshare.gif"
+      }
+    ],
+    "dm_unknown_address": [
+      {
+        "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/address/dm_unknown_address_nonshare.gif"
+      }
+    ],
+    "group_stranger_address": [
+      {
+        "speech": "Nice! Anyone could read it in the group chat, so I’m glad we kept my home private.",
+        "image": "/gifs/address/group_stranger_address_nonshare.gif"
+      }
+    ],
+    "group_friend_address": [
+      {
+        "speech": "That was smart! My friend asked, but in a public group chat, it's better to keep that private.",
+        "image": "/gifs/address/group_friend_address_nonshare.gif"
+      }
+    ],
+    "dm_stranger_address": [
+      {
+        "speech": "We made a safe choice. Just because someone sends me a message doesn’t mean I should trust them.",
+        "image": "/gifs/address/dm_stranger_address_nonshare.gif"
+      }
+    ],
+    "dm_friend_address": [
+      {
+        "speech": "Nice thinking! I trust my friend, but it’s still smart to keep my address off messages.",
+        "image": "/gifs/address/dm_friend_address_nonshare.gif"
+      }
+    ],
+    "game_stranger_birthday": [
+      {
+        "speech": "Good thing we didn’t say my birthday. It was a public channel, and I didn’t even know that person!",
+        "image": "/gifs/birthday/game_stranger_birthday_nonshare.gif"
+      }
+    ],
+    "game_friend_birthday": [
+      {
+        "speech": "Even though it was my friend, the game channel is public. I'm really glad we didn’t share my birthday there.",
+        "image": "/gifs/birthday/game_friend_birthday_nonshare.gif"
+      }
+    ],
+    "group_stranger_birthday": [
+      {
+        "speech": "We did the right thing. I didn’t know who that was, and everyone in the group could see my birthday.",
+        "image": "/gifs/birthday/group_stranger_birthday_nonshare.gif"
+      }
+    ],
+    "group_friend_birthday": [
+      {
+        "speech": "Even if it’s someone I know, sharing my birthday in front of a whole group isn’t safe. That was a smart choice!",
+        "image": "/gifs/birthday/group_friend_birthday_nonshare.gif"
+      }
+    ],
+    "dm_stranger_birthday": [
+      {
+        "speech": "That message came from someone I don’t even know. I’m proud we didn’t tell them my birthday!",
+        "image": "/gifs/birthday/dm_stranger_birthday_nonshare.gif"
+      }
+    ],
+    "dm_friend_birthday": [
+      {
+        "speech": "My friend asked in a private message, but we still made a smart choice not to share personal info online.",
+        "image": "/gifs/birthday/dm_friend_birthday_nonshare.gif"
+      }
+    ],
+    "game_unknown_birthday": [
+      {
+        "speech": "That pop-up asked for my birthday… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/birthday/game_unknown_birthday_nonshare.gif"
+      }
+    ],
+    "group_unknown_birthday": [
+      {
+        "speech": "That pop-up asked for my birthday… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/birthday/group_unknown_birthday_nonshare.gif"
+      }
+    ],
+    "dm_unknown_birthday": [
+      {
+        "speech": "That pop-up asked for my birthday… but I don’t even know who sent it. Good thing we didn’t share!\"",
+        "image": "/gifs/birthday/dm_unknown_birthday_nonshare.gif"
+      }
+    ],
+    "game_stranger_city": [
+      {
+        "speech": "Phew! I didn’t share my city. That game chat is public, and I didn’t know who that was.",
+        "image": "/gifs/city/game_stranger_city_nonshare.gif"
+      }
+    ],
+    "game_friend_city": [
+      {
+        "speech": "Even though it was my friend, the game channel is public. I’m glad we kept my city private.",
+        "image": "/gifs/city/game_friend_city_nonshare.gif"
+      }
+    ],
+    "group_stranger_city": [
+      {
+        "speech": "Good thing we didn’t answer. I didn’t know them, and group chats are public.",
+        "image": "/gifs/city/group_stranger_city_nonshare.gif"
+      }
+    ],
+    "group_friend_city": [
+      {
+        "speech": "Even when my friend asked, it wasn’t safe to say where I live in a public group chat. You helped me make the right choice!",
+        "image": "/gifs/city/group_friend_city_nonshare.gif"
+      }
+    ],
+    "dm_stranger_city": [
+      {
+        "speech": "I didn’t even know who that was, so I didn’t tell them what city I live in. That was the right choice!",
+        "image": "/gifs/city/dm_stranger_city_nonshare.gif"
+      }
+    ],
+    "dm_friend_city": [
+      {
+        "speech": "Even if it was someone I know, it’s smart not to share my city online. We made a good choice!",
+        "image": "/gifs/city/dm_friend_city_nonshare.gif"
+      }
+    ],
+    "game_stranger_trip": [
+      {
+        "speech": "Good thing we stayed quiet. I didn’t know who they were, and everyone in the game could’ve seen it.",
+        "image": "/gifs/trip/game_stranger_trip_nonshare.gif"
+      }
+    ],
+    "game_friend_trip": [
+      {
+        "speech": "That was smart! Some stories, like where I went last summer, are just not for the whole game chat.",
+        "image": "/gifs/trip/game_friend_trip_nonshare.gif"
+      }
+    ],
+    "group_stranger_trip": [
+      {
+        "speech": "Good call—group chats are public, and I don’t even know who asked. That trip info stays private!",
+        "image": "/gifs/trip/group_stranger_trip_nonshare.gif"
+      }
+    ],
+    "group_friend_trip": [
+      {
+        "speech": "My friend asked, but it was in a group chat. I’m glad we didn’t say anything—everyone could’ve seen it.",
+        "image": "/gifs/trip/group_friend_trip_nonshare.gif"
+      }
+    ],
+    "dm_stranger_trip": [
+      {
+        "speech": "Someone I don’t even know messaged me and asked about my summer trip! I’m glad we didn’t answer.",
+        "image": "/gifs/trip/dm_stranger_trip_nonshare.gif"
+      }
+    ],
+    "dm_friend_trip": [
+      {
+        "speech": "Nice! Even though I know them, I’m glad we kept my summer trip private online.",
+        "image": "/gifs/trip/dm_friend_trip_nonshare.gif"
+      }
+    ],
+    "game_stranger_playground": [
+      {
+        "speech": "Good thing I kept it secret! The game chat is open to everyone, and I didn’t know that person.",
+        "image": "/gifs/playground/game_stranger_playground_nonshare.gif"
+      }
+    ],
+    "game_friend_playground": [
+      {
+        "speech": "That was smart! Some things, like where I play after school, shouldn’t be shared in public chats",
+        "image": "/gifs/playground/game_friend_playground_nonshare.gif"
+      }
+    ],
+    "group_stranger_playground": [
+      {
+        "speech": "Good job! Group chats are open to many people, so it’s safer to keep some things private.",
+        "image": "/gifs/playground/group_stranger_playground_nonshare.gif"
+      }
+    ],
+    "group_friend_playground": [
+      {
+        "speech": "I trust my friend, but the group chat is still public. I’m glad we kept my after-school plans private.",
+        "image": "/gifs/playground/group_friend_playground_nonshare.gif"
+      }
+    ],
+    "dm_stranger_playground": [
+      {
+        "speech": "Just because it’s a private message doesn’t mean it’s safe. I don’t know that person, so I kept my plans private.",
+        "image": "/gifs/playground/dm_stranger_playground_nonshare.gif"
+      }
+    ],
+    "dm_friend_playground": [
+      {
+        "speech": "Even though it was a friend, it’s better to keep some things private online.",
+        "image": "/gifs/playground/dm_friend_playground_nonshare.gif"
+      }
+    ],
+    "game_stranger_dog": [
+      {
+        "speech": "Good thing I kept it private! The game channel is open to everyone, and I didn’t know them.",
+        "image": "/gifs/dog/game_stranger_dog_nonshare.gif"
+      }
+    ],
+    "game_friend_dog": [
+      {
+        "speech": "Smart choice! Some things, like having a pet, are better kept private in public chats.",
+        "image": "/gifs/dog/game_friend_dog_nonshare.gif"
+      }
+    ],
+    "group_stranger_dog": [
+      {
+        "speech": "Good job! It’s safer to keep pet info private in a public group chat.",
+        "image": "/gifs/dog/group_stranger_dog_nonshare.gif"
+      }
+    ],
+    "group_friend_dog": [
+      {
+        "speech": "I trust my friend, but group chats are public. I’m glad we kept my pet info private.",
+        "image": "/gifs/dog/group_friend_dog_nonshare.gif"
+      }
+    ],
+    "dm_stranger_dog": [
+      {
+        "speech": "Nice! Private messages aren’t always safe. I don’t know that person, so I kept my pet info private.",
+        "image": "/gifs/dog/dm_stranger_dog_nonshare.gif"
+      }
+    ],
+    "dm_friend_dog": [
+      {
+        "speech": "Even though it was a friend, I’m careful about what I share online.",
+        "image": "/gifs/dog/dm_friend_dog_nonshare.gif"
+      }
+    ],
+    "game_stranger_color": [
+      {
+        "speech": "Good thing I kept it private! The game channel is open to everyone, so I stayed safe.",
+        "image": "/gifs/color/game_stranger_color_nonshare.gif"
+      }
+    ],
+    "game_friend_color": [
+      {
+        "speech": "Even though it was my friend, the game channel is public. I’m glad I didn’t share that there.",
+        "image": "/gifs/color/game_friend_color_nonshare.gif"
+      }
+    ],
+    "group_stranger_color": [
+      {
+        "speech": "Good job! Keeping personal info private in group chats is safer.",
+        "image": "/gifs/color/group_stranger_color_nonshare.gif"
+      }
+    ],
+    "group_friend_color": [
+      {
+        "speech": "I trust my friend, but group chats are public. I’m happy I kept my favorite color private.",
+        "image": "/gifs/color/group_friend_color_nonshare.gif"
+      }
+    ],
+    "dm_stranger_color": [
+      {
+        "speech": "Private messages aren’t always safe. I don’t know that person, so I kept my favorite color private.",
+        "image": "/gifs/color/dm_stranger_color_nonshare.gif"
+      }
+    ],
+    "dm_friend_color": [
+      {
+        "speech": "Even though it was a friend, I’m careful about what I share online.",
+        "image": "/gifs/color/dm_friend_color_nonshare.gif"
+      }
+    ],
+    "game_stranger_ice": [
+      {
+        "speech": "Good thing I kept it private! The game channel is open to everyone.",
+        "image": "/gifs/ice/game_stranger_ice_nonshare.gif"
+      }
+    ],
+    "game_friend_ice": [
+      {
+        "speech": "Nice! Even though it was my friend, the game channel is public. I’m glad I didn’t share that.",
+        "image": "/gifs/ice/game_friend_ice_nonshare.gif"
+      }
+    ],
+    "group_stranger_ice": [
+      {
+        "speech": "Good job! It’s safer to keep personal info private in group chats.",
+        "image": "/gifs/ice/group_stranger_ice_nonshare.gif"
+      }
+    ],
+    "group_friend_ice": [
+      {
+        "speech": "I trust my friend, but group chats are public. I’m happy I kept that private.",
+        "image": "/gifs/ice/group_friend_ice_nonshare.gif"
+      }
+    ],
+    "dm_stranger_ice": [
+      {
+        "speech": "Private messages aren’t always safe. I don’t know that person, so I kept it private.",
+        "image": "/gifs/ice/dm_stranger_ice_nonshare.gif"
+      }
+    ],
+    "dm_friend_ice": [
+      {
+        "speech": "Even though it was a friend, I’m careful about what I share online.",
+        "image": "/gifs/ice/dm_friend_ice_nonshare.gif"
+      }
+    ]
+  }

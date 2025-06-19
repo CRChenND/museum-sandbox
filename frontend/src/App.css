@@ -45,6 +45,38 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.fixed-back-button {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background-color: #008c44;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 999;
+  outline: none;
+}
+
+.fixed-next-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #008c44;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  z-index: 999;
+  outline: none;
+}
+
 
 /* ===== Responsive Tweaks ===== */
 @media (max-width: 768px) {

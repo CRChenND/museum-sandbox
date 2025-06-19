@@ -1,12 +1,45 @@
 /* Styles for character message component */
+
+.character-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 顶部标题 */
+.character-container > h2 {
+  flex-shrink: 0;
+  background-color: #d00087;
+  color: white;
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: 3vw;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+
+/* 主体内容区域，高度减去标题部分，确保不出现滚动条 */
+.character-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
 .character-message {
   margin: 2rem auto;
   max-width: 90%;
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
   gap: 1rem;
   padding: 1rem;
   border-radius: 8px;
+  position: relative;
 }
 
 .character-message img {
@@ -15,18 +48,35 @@
   border-radius: 50%;
 }
 
-.speech-bubble {
+.character-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transform: translateY(-4rem); /* 向上移动头像+名字 */
+}
+
+.character-name {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+}
+
+.character-message .speech-bubble {
   position: relative;
   background-color: #fff1b5;
-  padding: 1.5rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
   border-radius: 12px;
   color: #333;
-  font-size: 1.1rem;
-  max-width: 70%;
+  font-size: 2rem;
+  text-align: left;
+  max-width: 100%;
   box-shadow: 0 0 0 2px #ffeb99;
 }
 
-.speech-bubble::before {
+.character-message .speech-bubble::before {
   content: "";
   position: absolute;
   top: 1rem;
@@ -39,7 +89,7 @@
   z-index: 1;
 }
 
-.speech-bubble::after {
+.character-message  .speech-bubble::after {
   content: "";
   position: absolute;
   top: 1rem;
@@ -51,6 +101,7 @@
   border-right: 22px solid #ffeb99;
   z-index: 0;
 }
+
 
 @media (max-width: 768px) {
   .character-message {
