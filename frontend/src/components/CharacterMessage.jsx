@@ -8,7 +8,7 @@ export default function CharacterMessage({ character, onNext, onBack }) {
         <div className="character-message">
           <div className="character-avatar">
             <div className="character-name">{character.name}</div>
-            <img src={character.avatar} alt={character.name} />
+            <img src={`${import.meta.env.BASE_URL}${character.avatar.slice(1)}`} alt={character.name} />
           </div>
           <div className="speech-bubble">
             <p>{character.message}</p>

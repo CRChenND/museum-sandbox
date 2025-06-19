@@ -16,7 +16,8 @@ export default function CharacterSelect({ characters, selected, onSelect, onNext
             }}
           >
             <p style={{ opacity: char.id === selected.id ? 1 : 0.4 }}>{char.name}</p>
-            <img src={char.avatar} alt={char.name} />
+            {/* <img src={char.avatar} alt={char.name} /> */}
+            <img src={`${import.meta.env.BASE_URL}${char.avatar.slice(1)}`} alt={char.name} />
           </button>
         ))}
       </div>
