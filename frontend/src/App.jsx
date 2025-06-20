@@ -92,7 +92,7 @@ function App() {
         onNext={next}
         onBack={prev}
         setSceneContext={setSceneContext}
-        presetInfo={fromStep === 7 ? sceneContext.info : null}
+        presetInfo={fromStep === 9 ? sceneContext.info : null}
       />
     )}
     {step === 4 && (

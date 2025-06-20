@@ -14,13 +14,20 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
     return 'unknown';
   };
 
-  const infoOptions = ['address', 'birthday', 'city', 'color', 'dog', 'ice', 'playground', 'trip'];
-  const info = useMemo(() => {
-    return presetInfo ? presetInfo : infoOptions[Math.floor(Math.random() * infoOptions.length)];
-  }, [presetInfo]);
+  const infoOptionsAll = ['address', 'birthday', 'city', 'color', 'dog', 'ice', 'playground', 'trip'];
+  const infoOptionsUnknown = ['address', 'birthday'];
 
   const normalizedThrough = normalize(shareChoices.through);
   const normalizedWith = normalize(shareChoices.with);
+
+  const info = useMemo(() => {
+      if (presetInfo) return presetInfo;
+
+      const isUnknown = normalizedWith === 'unknown';
+      const pool = isUnknown ? infoOptionsUnknown : infoOptionsAll;
+
+      return pool[Math.floor(Math.random() * pool.length)];
+  }, [presetInfo, normalizedWith]);
 
   const gifPath = `gifs/${info}/${normalizedThrough}_${normalizedWith}_${info}_ask.gif`;
 

@@ -1,34 +1,62 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './TryCombo.css';
 
 export default function TryCombo({ sceneContext, onTryCombo }) {
   const throughOptions = ['game', 'group', 'dm'];
   const withWhomOptions = ['friend', 'stranger', 'unknown'];
-  const infoOptions = ['address', 'birthday', 'city', 'color', 'dog', 'ice', 'playground', 'trip'];
+  const infoOptionsAll = ['address', 'birthday', 'city', 'color', 'dog', 'ice', 'playground', 'trip'];
+  const infoOptionsUnknown = ['address', 'birthday'];
 
   const [throughIndex, setThroughIndex] = useState(throughOptions.indexOf(sceneContext.through));
   const [withWhomIndex, setWithWhomIndex] = useState(withWhomOptions.indexOf(sceneContext.withWhom));
-  const [infoIndex, setInfoIndex] = useState(infoOptions.indexOf(sceneContext.info));
+  const [infoIndex, setInfoIndex] = useState(infoOptionsAll.indexOf(sceneContext.info));
 
   const handleTryCombo = () => {
+    const currentInfoOptions = withWhomOptions[withWhomIndex] === 'unknown' ? infoOptionsUnknown : infoOptionsAll;
+
     onTryCombo({
       through: throughOptions[throughIndex],
       withWhom: withWhomOptions[withWhomIndex],
-      info: infoOptions[infoIndex]
+      info: currentInfoOptions[infoIndex % currentInfoOptions.length]
     });
   };
 
   const handleThroughChange = (dir) => {
     setThroughIndex((throughIndex + dir + throughOptions.length) % throughOptions.length);
   };
-  
+
   const handleWithChange = (dir) => {
-    setWithWhomIndex((withWhomIndex + dir + withWhomOptions.length) % withWhomOptions.length);
+    const newIndex = (withWhomIndex + dir + withWhomOptions.length) % withWhomOptions.length;
+    setWithWhomIndex(newIndex);
   };
-  
+
   const handleInfoChange = (dir) => {
-    setInfoIndex((infoIndex + dir + infoOptions.length) % infoOptions.length);
+    const currentInfoOptions = withWhomOptions[withWhomIndex] === 'unknown' ? infoOptionsUnknown : infoOptionsAll;
+    setInfoIndex((infoIndex + dir + currentInfoOptions.length) % currentInfoOptions.length);
   };
+
+  // 联动控制：当 withWhom 改成 unknown，infoIndex 也同步
+  useEffect(() => {
+    if (withWhomOptions[withWhomIndex] === 'unknown') {
+      const currentInfo = infoOptionsUnknown[infoIndex % infoOptionsUnknown.length];
+      if (!infoOptionsUnknown.includes(infoOptionsAll[infoIndex])) {
+        setInfoIndex(infoOptionsUnknown.indexOf('address')); // 默认改 address
+      }
+    }
+  }, [withWhomIndex]);
+
+  // 联动控制：当 info 改成不是 address/birthday，withWhom 改掉 unknown
+  useEffect(() => {
+    const currentInfoOptions = withWhomOptions[withWhomIndex] === 'unknown' ? infoOptionsUnknown : infoOptionsAll;
+    const currentInfo = currentInfoOptions[infoIndex % currentInfoOptions.length];
+
+    if (!infoOptionsUnknown.includes(currentInfo) && withWhomOptions[withWhomIndex] === 'unknown') {
+      setWithWhomIndex(withWhomOptions.indexOf('friend')); // 自动改 friend
+    }
+  }, [infoIndex]);
+
+  const currentInfoOptions = withWhomOptions[withWhomIndex] === 'unknown' ? infoOptionsUnknown : infoOptionsAll;
+  const currentInfo = currentInfoOptions[infoIndex % currentInfoOptions.length];
 
   return (
     <div className="combo-container">
@@ -77,8 +105,8 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
         <div className="combo-block">
             <h3 className="combo-title blue">Information</h3>
             <div className="combo-card blue">
-            <img src={`${import.meta.env.BASE_URL}icons/info/${infoOptions[infoIndex]}.png`} alt="info" />
-            <p>My {infoOptions[infoIndex]}</p>
+            <img src={`${import.meta.env.BASE_URL}icons/info/${currentInfo}.png`} alt="info" />
+            <p>My {currentInfo}</p>
             </div>
             <div className="combo-buttons">
             <button className="arrow blue" onClick={() => handleInfoChange(-1)}>
@@ -89,9 +117,7 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
             </button>
             </div>
         </div>
-        </div>
-
-
+      </div>
 
       <div className="combo-action">
         <button onClick={handleTryCombo}>Try This Combo!</button>

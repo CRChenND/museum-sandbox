@@ -36,7 +36,7 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
       <div className="card-row">
         {cards.map((card, i) => (
           <div className={`card ${card.color}`} key={i}>
-            <img src={`${import.meta.env.BASE_URL}${current.image.slice(1)}`} alt="Consequence Scene" />
+            <img src={`${import.meta.env.BASE_URL}${card.icon.slice(1)}`} alt={card.name} />
             <p>{card.name}</p>
           </div>
         ))}
