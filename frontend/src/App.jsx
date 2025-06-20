@@ -132,7 +132,7 @@ function App() {
       <WhatWillHappen
         character={selectedChar}
         sceneContext={sceneContext}
-        onNext={next}
+        onNext={() => setStep(6)}
         onBack={prev}
       />
     )}
