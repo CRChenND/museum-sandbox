@@ -26,6 +26,7 @@ function App() {
   const [finalChoice, setFinalChoice] = useState(null);
   const [reflectionIndex, setReflectionIndex] = useState(0);
   const [fromStep, setFromStep] = useState(null);
+  const [showResetPopup, setShowResetPopup] = useState(false);  // ➡️ 控制 popup
 
   const prev = () => {
     setStep((s) => {
@@ -77,8 +78,37 @@ function App() {
     console.log('  fromStep:', fromStep);
   }, [step, shareChoices, sceneContext, finalChoice, reflectionIndex, fromStep]);
 
+  const resetApp = () => {
+    setStep(0);
+    setFinalChoice(null);
+    setSceneContext({ through: '', withWhom: '', info: '' });
+    setShareChoices({ through: '', with: '' });
+    setReflectionIndex(0);
+    setFromStep(null);
+    setShowResetPopup(false);
+  };
+
   return (
     <div className="app">
+
+      {/* 右上角小圆点 */}
+      <button 
+        className="reset-button" 
+        onClick={() => setShowResetPopup(true)}
+        title="Reset"
+      ></button>
+
+      {/* 弹窗 */}
+      {showResetPopup && (
+        <div className="reset-popup">
+          <div className="reset-popup-content">
+            <p>Are you sure you want to refresh and start over?</p>
+            <button onClick={resetApp}>Yes</button>
+            <button onClick={() => setShowResetPopup(false)}>No</button>
+          </div>
+        </div>
+      )}
+
     {step === 0 && (
       <CharacterSelect
         characters={data.characters}
