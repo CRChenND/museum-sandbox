@@ -124,12 +124,12 @@ button:disabled {
 }
 
 .reset-popup-content button:first-child {
-  background-color: #DA300C; /* Yes */
+  background-color: #DA300C !important; /* Yes */
   color: white;
 }
 
 .reset-popup-content button:last-child {
-  background-color: #008c44; /* No */
+  background-color: #008c44 !important; /* No */
   color: white;
 }
 
