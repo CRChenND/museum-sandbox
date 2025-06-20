@@ -45,6 +45,19 @@ function App() {
     next();
   };
 
+  const stepNameMap = {
+    0: 'CharacterSelect',
+    1: 'CharacterMessage',
+    2: 'ShareDecision',
+    3: 'PhoneScene',
+    4: 'ReflectionScene',
+    5: finalChoice === 'share' ? 'WhatWillHappen' : 'NonShareOutcome',
+    6: 'WhatIfShare',
+    7: 'TipsForYou',
+    8: 'WhatWillHappen (from WhatIfShare)',
+    9: 'TryCombo',
+  };
+
   useEffect(() => {
     let existingId = localStorage.getItem('sessionId');
     if (!existingId) {
@@ -53,6 +66,16 @@ function App() {
     }
     setSessionId(existingId);
   }, []);
+
+  useEffect(() => {
+    const name = stepNameMap[step];
+    console.log(`🟢 Step ${step}: ${name}`);
+    console.log('  shareChoices:', shareChoices);
+    console.log('  sceneContext:', sceneContext);
+    console.log('  finalChoice:', finalChoice);
+    console.log('  reflectionIndex:', reflectionIndex);
+    console.log('  fromStep:', fromStep);
+  }, [step, shareChoices, sceneContext, finalChoice, reflectionIndex, fromStep]);
 
   return (
     <div className="app">
