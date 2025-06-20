@@ -35,14 +35,14 @@ export default function WhatWillHappen({ character, sceneContext, onBack, onNext
       <h2>What will happen?</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
         <div className="speech-bubble yellow">
           <p>{current.speech}</p>
         </div>
       </div>
 
       <div className="phone-image">
-        <img src={current.image} alt="Consequence Scene" />
+        <img src={`${import.meta.env.BASE_URL}${current.image.slice(1)}`} alt="Consequence Scene" />
       </div>
 
       <div className="navigation-buttons">

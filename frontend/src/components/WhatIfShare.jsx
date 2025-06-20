@@ -27,7 +27,7 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
       <h2>What could happen if we share this?</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
         <div className="speech-bubble">
           <p>Hmm... I wonder what might happen if I share this with others.</p>
         </div>
@@ -36,7 +36,7 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
       <div className="card-row">
         {cards.map((card, i) => (
           <div className={`card ${card.color}`} key={i}>
-            <img src={card.icon} alt={card.name} />
+            <img src={`${import.meta.env.BASE_URL}${current.image.slice(1)}`} alt="Consequence Scene" />
             <p>{card.name}</p>
           </div>
         ))}

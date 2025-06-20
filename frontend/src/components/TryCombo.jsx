@@ -35,7 +35,7 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
       <h2>Make some differences!</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${sceneContext.characterName?.toLowerCase() || 'mateo'}.png`} alt="avatar" />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${sceneContext.characterName?.toLowerCase() || 'mateo'}.png`} alt="avatar" />
         <div className="speech-bubble yellow">
           <p>Let’s switch the place and the person, and see if the answer stays the same or changes!</p>
         </div>
@@ -45,15 +45,15 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
         <div className="combo-block">
             <h3 className="combo-title purple">Share through</h3>
             <div className="combo-card purple">
-            <img src={`/icons/channel/${throughOptions[throughIndex]}.png`} alt="through" />
+            <img src={`${import.meta.env.BASE_URL}icons/channel/${throughOptions[throughIndex]}.png`} alt="through" />
             <p>{throughOptions[throughIndex] === 'dm' ? 'Direct Message' : throughOptions[throughIndex] === 'group' ? 'Group Chat' : 'Game Channel'}</p>
             </div>
             <div className="combo-buttons">
             <button className="arrow purple" onClick={() => handleThroughChange(-1)}>
-                <img src="/icons/left-arrow.svg" alt="left" />
+              <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <button className="arrow purple" onClick={() => handleThroughChange(1)}>
-                <img src="/icons/right-arrow.svg" alt="right" />
+              <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
             </div>
         </div>
@@ -61,15 +61,15 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
         <div className="combo-block">
             <h3 className="combo-title orange">Share with</h3>
             <div className="combo-card orange">
-            <img src={`/icons/people/${withWhomOptions[withWhomIndex]}.png`} alt="with" />
+            <img src={`${import.meta.env.BASE_URL}icons/people/${withWhomOptions[withWhomIndex]}.png`} alt="with" />
             <p>{withWhomOptions[withWhomIndex].charAt(0).toUpperCase() + withWhomOptions[withWhomIndex].slice(1)}</p>
             </div>
             <div className="combo-buttons">
             <button className="arrow orange" onClick={() => handleWithChange(-1)}>
-                <img src="/icons/left-arrow.svg" alt="left" />
+              <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <button className="arrow orange" onClick={() => handleWithChange(1)}>
-                <img src="/icons/right-arrow.svg" alt="right" />
+              <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
             </div>
         </div>
@@ -77,15 +77,15 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
         <div className="combo-block">
             <h3 className="combo-title blue">Information</h3>
             <div className="combo-card blue">
-            <img src={`/icons/info/${infoOptions[infoIndex]}.png`} alt="info" />
+            <img src={`${import.meta.env.BASE_URL}icons/info/${infoOptions[infoIndex]}.png`} alt="info" />
             <p>My {infoOptions[infoIndex]}</p>
             </div>
             <div className="combo-buttons">
             <button className="arrow blue" onClick={() => handleInfoChange(-1)}>
-                <img src="/icons/left-arrow.svg" alt="left" />
+              <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <button className="arrow blue" onClick={() => handleInfoChange(1)}>
-                <img src="/icons/right-arrow.svg" alt="right" />
+              <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
             </div>
         </div>

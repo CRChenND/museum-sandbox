@@ -49,7 +49,7 @@ export default function ShareDecision({
       <h2>Let’s help {characterName || '[Name]'} make a decision!</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${characterName.toLowerCase()}.png`} alt={characterName} />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${characterName.toLowerCase()}.png`} alt={characterName} />
         <div className="speech-bubble">
           <p>Ready? Let’s choose a scene to explore!</p>
         </div>
@@ -60,14 +60,14 @@ export default function ShareDecision({
           <h3 className="carousel-title purple-text">Share through</h3>
           <div className="carousel">
             <button className="arrow purple" onClick={() => handleThroughChange(-1)}>
-              <img src="/icons/left-arrow.svg" alt="left" />
+              <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <div className="share-card purple">
-              <img src={currentThrough.icon || '/icons/icon-placeholder.png'} alt={currentThrough.name} />
+              <img src={`${import.meta.env.BASE_URL}${(currentThrough.icon || '/icons/icon-placeholder.png').slice(1)}`} alt={currentThrough.name} />
               <p>{currentThrough.name}</p>
             </div>
             <button className="arrow purple" onClick={() => handleThroughChange(1)}>
-              <img src="/icons/right-arrow.svg" alt="right" />
+              <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
           </div>
         </div>
@@ -76,14 +76,14 @@ export default function ShareDecision({
           <h3 className="carousel-title orange-text">Share with</h3>
           <div className="carousel">
             <button className="arrow orange" onClick={() => handleWithChange(-1)}>
-              <img src="/icons/left-arrow.svg" alt="left" />
+            <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <div className="share-card orange">
-              <img src={currentWith.icon || '/icons/icon-placeholder.png'} alt={currentWith.name} />
+            <img src={`${import.meta.env.BASE_URL}${(currentWith.icon || '/icons/icon-placeholder.png').slice(1)}`} alt={currentWith.name} />
               <p>{currentWith.name}</p>
             </div>
             <button className="arrow orange" onClick={() => handleWithChange(1)}>
-              <img src="/icons/right-arrow.svg" alt="right" />
+            <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       <h2>Let’s help {character.name} make a decision!</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+      <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
         <div className="speech-bubble">
           <p>{current.message}</p>
         </div>
@@ -67,7 +67,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       <div className="card-row">
         {current.cards.map((card, i) => (
           <div className={`card ${card.color}`} key={i}>
-            <img src={card.icon} alt={card.name} />
+            <img src={`${import.meta.env.BASE_URL}${card.icon.slice(1)}`} alt={card.name} />
             <p>{card.name}</p>
           </div>
         ))}

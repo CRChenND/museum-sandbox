@@ -61,14 +61,14 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
     <div className="phone-scene-container">
       <h2>Let’s help {character.name} make a decision!</h2>
       <div className="character-speech">
-        <img className="avatar" src={`/avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
         <div className="speech-bubble">
           <p>{message}</p>
         </div>
       </div>
 
       <div className="gif-wrapper">
-        <img src={gifPath} alt="Phone Scene" />
+        <img src={`${import.meta.env.BASE_URL}${gifPath}`} alt="Phone Scene" />
       </div>
 
       <button className="fixed-back-button" onClick={onBack}>Back</button>
