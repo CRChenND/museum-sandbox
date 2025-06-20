@@ -25,7 +25,7 @@ if ($data) {
         'extra' => $data['extra'] ?? []
     ];
 
-    $logFile = 'click_log.json';
+    $logFile = 'log.json';
 
     // 如果文件已存在，加载已有数据；否则创建新数组
     if (file_exists($logFile)) {
