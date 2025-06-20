@@ -6,6 +6,7 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
     if (!value) return 'unknown';
     const lower = value.toLowerCase();
     if (lower.includes('direct')) return 'dm';
+    if (lower.includes('dm')) return 'dm';
     if (lower.includes('game')) return 'game';
     if (lower.includes('group')) return 'group';
     if (lower.includes('friend')) return 'friend';
