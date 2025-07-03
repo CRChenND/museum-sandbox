@@ -211,6 +211,7 @@ function App() {
 
     {step === 9 && (
       <TryCombo
+        character={selectedChar}
         sceneContext={sceneContext}
         onTryCombo={(newContext) => {
           setSceneContext(newContext);

@@ -30,7 +30,7 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
       return pool[Math.floor(Math.random() * pool.length)];
   }, [presetInfo, normalizedWith]);
 
-  const gifPath = `gifs/${info}/${normalizedThrough}_${normalizedWith}_${info}_ask.gif`;
+  const gifPath = `gifs/${character.id}/${info}/${normalizedThrough}_${normalizedWith}_${info}_ask.gif`;
 
   const getMessage = (throughRaw, withWhomRaw) => {
     const through = normalize(throughRaw);

@@ -1,32 +1,22 @@
 {
     "characters": [
       {
-        "id": "butterbean",
-        "name": "Butterbean",
-        "avatar": "/avatars/butterbean.png",
-        "message": "Hi! I'm Butterbean. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
-        "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
+        "id": "alpha",
+        "name": "Alpha",
+        "avatar": "/avatars/alpha.png",
+        "message": "Hi! I'm Alpha. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
       },
       {
-        "id": "nadia",
-        "name": "Nadia",
-        "avatar": "/avatars/nadia.png",
-        "message": "Hi! I'm Nadia. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
-        "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
+        "id": "nia",
+        "name": "Nia",
+        "avatar": "/avatars/nia.png",
+        "message": "Hi! I'm Nia. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
       },
       {
-        "id": "toni",
-        "name": "Toni",
-        "avatar": "/avatars/toni.png",
-        "message": "Hi! I'm Toni. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
-        "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
-      },
-      {
-        "id": "mateo",
-        "name": "Mateo",
-        "avatar": "/avatars/mateo.png",
-        "message": "Hi! I'm Mateo. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share.",
-        "msg_phone": "I'm chatting in a group. Someone I don’t know is in the chat. Should I tell them this?"
+        "id": "ethan",
+        "name": "Ethan",
+        "avatar": "/avatars/ethan.png",
+        "message": "Hi! I'm Ethan. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
       }
     ],
     "shareThrough": [

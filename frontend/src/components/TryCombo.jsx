@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './TryCombo.css';
 
-export default function TryCombo({ sceneContext, onTryCombo }) {
+export default function TryCombo({ character, sceneContext, onTryCombo }) {
   const throughOptions = ['game', 'group', 'dm'];
   const withWhomOptions = ['friend', 'stranger', 'unknown'];
   const infoOptionsAll = ['address', 'birthday', 'city', 'color', 'dog', 'ice', 'playground', 'trip'];
@@ -63,7 +63,7 @@ export default function TryCombo({ sceneContext, onTryCombo }) {
       <h2>Make some differences!</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${sceneContext.characterName?.toLowerCase() || 'mateo'}.png`} alt="avatar" />
+        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.id || 'alpha'}.png`} alt="avatar" />
         <div className="speech-bubble yellow">
           <p>Let’s switch the place and the person, and see if the answer stays the same or changes!</p>
         </div>

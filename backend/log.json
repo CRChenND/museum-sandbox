@@ -1,0 +1,337 @@
+[
+    {
+        "timestamp": "2025-07-02 15:49:53",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": {
+            "characterId": "mateo"
+        }
+    },
+    {
+        "timestamp": "2025-07-02 15:49:54",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-02 15:49:57",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Mateo",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 07:47:43",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:45",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:46",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": {
+            "characterId": "alpha"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:49",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:49",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:51",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:47:51",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": {
+            "characterId": "alpha"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 07:48:33",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:32:06",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:32:07",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:32:08",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:32:10",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:32:11",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:34:40",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:34:41",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:35:04",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:35:11",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:35:12",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:37:06",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:46:14",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:46:14",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 08:46:21",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": {
+            "characterId": "alpha"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 08:46:21",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 09:00:54",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 09:02:47",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": {
+            "characterId": "nia"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 09:02:49",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Nia",
+        "extra": []
+    },
+    {
+        "timestamp": "2025-07-03 09:05:43",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Alpha",
+        "extra": {
+            "characterId": "alpha"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 09:05:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": {
+            "characterId": "ethan"
+        }
+    },
+    {
+        "timestamp": "2025-07-03 09:05:44",
+        "userId": "unknown",
+        "event": "click",
+        "element": "character-next-button",
+        "step": 0,
+        "character": "Ethan",
+        "extra": []
+    }
+]

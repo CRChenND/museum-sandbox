@@ -11,7 +11,7 @@ export default function NonShareOutcome({ character, sceneContext, onBack, onNex
   const safeThrough = through || 'unknown';
   const key = `${safeThrough}_${safeWithWhom}_${safeInfo}`;
 
-  const steps = Array.isArray(stepData[key]) ? stepData[key] : (stepData["default"] || []);
+  const steps = Array.isArray(stepData[character.id][key]) ? stepData[character.id][key] : (stepData[character.id]["default"] || []);
   const current = steps[stepIndex];
 
   const handleNext = () => {
