@@ -9,9 +9,9 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       cards: []
     },
     {
-      message: `Where did I share that info? Oh yeah… it was in the ${through}. And lots of people were there.`,
+      message: `Where did I share that info? Oh yeah… it was in the ${through}.`,
       cards: [
-        { name: through === "dm" ? "Direct Message" : through === "group" ? "Group Chat" : "Game Channel", icon: `/icons/channel/${through}.png`, color: "purple" }
+        { name: through === "dm" ? "Direct Message" : through === "group" ? "Group Chat. And lots of people were there" : "Game Channel. And lots of people were there.", icon: `/icons/channel/${through}.png`, color: "purple" }
       ]
     },
     {
