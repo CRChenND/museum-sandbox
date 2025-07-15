@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import data from './data/data.json';
+import { logClick } from './utils/logger.js';
 import CharacterSelect from './components/CharacterSelect.jsx';
 import CharacterMessage from './components/CharacterMessage.jsx';
 import ShareDecision from './components/ShareDecision.jsx';
@@ -28,6 +29,32 @@ function App() {
   const [fromStep, setFromStep] = useState(null);
   const [showResetPopup, setShowResetPopup] = useState(false);  // ➡️ 控制 popup
 
+  const stepNameMap = {
+    0: 'CharacterSelect',
+    1: 'CharacterMessage',
+    2: 'ShareDecision',
+    3: 'PhoneScene',
+    4: 'ReflectionScene',
+    5: finalChoice === 'share' ? 'WhatWillHappen' : 'NonShareOutcome',
+    6: 'WhatIfShare',
+    7: 'TipsForYou',
+    8: 'WhatWillHappen (from WhatIfShare)',
+    9: 'TryCombo',
+  };
+
+  const currentStepName = stepNameMap[step];
+  const currentCharacterName = selectedChar?.name || "unknown";
+
+  const logEventWithContext = (event, element, extra = {}) => {
+    logClick(event, element, currentStepName, currentCharacterName, { ...extra, userId: sessionId });
+  };
+
+  const generateNewSessionId = () => {
+    const newId = uuidv4();
+    localStorage.setItem('sessionId', newId);
+    setSessionId(newId);
+  };
+
   const prev = () => {
     setStep((s) => {
       if (s === 3) {
@@ -46,26 +73,19 @@ function App() {
     next();
   };
 
-  const stepNameMap = {
-    0: 'CharacterSelect',
-    1: 'CharacterMessage',
-    2: 'ShareDecision',
-    3: 'PhoneScene',
-    4: 'ReflectionScene',
-    5: finalChoice === 'share' ? 'WhatWillHappen' : 'NonShareOutcome',
-    6: 'WhatIfShare',
-    7: 'TipsForYou',
-    8: 'WhatWillHappen (from WhatIfShare)',
-    9: 'TryCombo',
-  };
+  useEffect(() => {
+    if (sessionId) {
+      logEventWithContext("start", "app-init");
+    }
+  }, [sessionId]);
 
   useEffect(() => {
     let existingId = localStorage.getItem('sessionId');
     if (!existingId) {
-      existingId = uuidv4();
-      localStorage.setItem('sessionId', existingId);
+      generateNewSessionId();
+    } else {
+      setSessionId(existingId);
     }
-    setSessionId(existingId);
   }, []);
 
   useEffect(() => {
@@ -79,6 +99,10 @@ function App() {
   }, [step, shareChoices, sceneContext, finalChoice, reflectionIndex, fromStep]);
 
   const resetApp = () => {
+    logEventWithContext("click", "reset-app");
+  
+    generateNewSessionId();  // ✅ 重新生成 ID
+  
     setStep(0);
     setFinalChoice(null);
     setSceneContext({ through: '', withWhom: '', info: '' });
@@ -115,6 +139,7 @@ function App() {
         selected={selectedChar}
         onSelect={setSelectedChar}
         onNext={next}
+        logClick={logEventWithContext}
       />
     )}
     {step === 1 && (
@@ -122,6 +147,7 @@ function App() {
         character={selectedChar}
         onNext={next}
         onBack={prev}
+        logClick={logEventWithContext}
       />
     )}
     {step === 2 && (
@@ -136,6 +162,7 @@ function App() {
         }}
         onBack={prev}
         characterName={selectedChar.name}
+        logClick={logEventWithContext}
       />
     )}
     {step === 3 && (
@@ -146,6 +173,7 @@ function App() {
         onBack={prev}
         setSceneContext={setSceneContext}
         presetInfo={fromStep === 9 ? sceneContext.info : null}
+        logClick={logEventWithContext}
       />
     )}
     {step === 4 && (
@@ -156,6 +184,7 @@ function App() {
         sceneContext={sceneContext}
         index={reflectionIndex}
         setIndex={setReflectionIndex}
+        logClick={logEventWithContext}
       />
     )}
     {step === 5 && finalChoice === "share" && (
@@ -164,6 +193,7 @@ function App() {
         sceneContext={sceneContext}
         onNext={() => setStep(7)}
         onBack={prev}
+        logClick={logEventWithContext}
       />
     )}
 
@@ -173,6 +203,7 @@ function App() {
         sceneContext={sceneContext}
         onNext={() => setStep(6)}   // 👉 进入 WhatIfShare
         onBack={prev}
+        logClick={logEventWithContext}
       />
     )}
 
@@ -183,6 +214,7 @@ function App() {
         onSeeWhatHappens={() => setStep(8)}  // 👉 进入 WhatWillHappen
         onSkipToTips={() => setStep(7)}      // 👉 进入 TipsForYou
         onBack={prev}
+        logClick={logEventWithContext}
       />
     )}
 
@@ -197,6 +229,7 @@ function App() {
         onRetry={() => {
           setStep(9);  // TryCombo
         }}
+        logClick={logEventWithContext}
       />
     )}
 
@@ -206,6 +239,7 @@ function App() {
         sceneContext={sceneContext}
         onNext={() => setStep(7)}   // 👉 看完后继续去 Tips
         onBack={prev}
+        logClick={logEventWithContext}
       />
     )}
 
@@ -219,6 +253,7 @@ function App() {
           setFromStep(9);
           setStep(3);
         }}
+        logClick={logEventWithContext}
       />
     )}
 

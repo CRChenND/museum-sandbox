@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import './PhoneScene.css';
 
-export default function PhoneScene({ character, shareChoices, onBack, onNext, setSceneContext, presetInfo }) {
+export default function PhoneScene({ character, shareChoices, onBack, onNext, setSceneContext, presetInfo, logClick }) {
   const normalize = (value) => {
     if (!value) return 'unknown';
     const lower = value.toLowerCase();
@@ -22,12 +22,10 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
   const normalizedWith = normalize(shareChoices.with);
 
   const info = useMemo(() => {
-      if (presetInfo) return presetInfo;
-
-      const isUnknown = normalizedWith === 'unknown';
-      const pool = isUnknown ? infoOptionsUnknown : infoOptionsAll;
-
-      return pool[Math.floor(Math.random() * pool.length)];
+    if (presetInfo) return presetInfo;
+    const isUnknown = normalizedWith === 'unknown';
+    const pool = isUnknown ? infoOptionsUnknown : infoOptionsAll;
+    return pool[Math.floor(Math.random() * pool.length)];
   }, [presetInfo, normalizedWith]);
 
   const gifPath = `gifs/${character.id}/${info}/${normalizedThrough}_${normalizedWith}_${info}_ask.gif`;
@@ -62,6 +60,13 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
       withWhom: normalizedWith,
       info: info 
     });
+
+    logClick("click", "phonescene-next", {
+      through: normalizedThrough,
+      with: normalizedWith,
+      info
+    });
+
     onNext();
   };
 
@@ -69,7 +74,11 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
     <div className="phone-scene-container">
       <h2>Let’s help {character.name} make a decision!</h2>
       <div className="character-speech">
-        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+        <img
+          className="avatar"
+          src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`}
+          alt={character.name}
+        />
         <div className="speech-bubble">
           <p>{message}</p>
         </div>
@@ -79,9 +88,22 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
         <img src={`${import.meta.env.BASE_URL}${gifPath}`} alt="Phone Scene" />
       </div>
 
-      <button className="fixed-back-button" onClick={onBack}>Back</button>
-      <button className="fixed-next-button" onClick={handleNext}>Next</button>
+      <button
+        className="fixed-back-button"
+        onClick={() => {
+          logClick("click", "phonescene-back");
+          onBack();
+        }}
+      >
+        Back
+      </button>
+
+      <button
+        className="fixed-next-button"
+        onClick={handleNext}
+      >
+        Next
+      </button>
     </div>
   );
 }
-

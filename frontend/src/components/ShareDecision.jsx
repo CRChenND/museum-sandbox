@@ -2,15 +2,15 @@ import { useState, useEffect } from 'react';
 import './ShareDecision.css';
 
 export default function ShareDecision({
-    shareThrough,
-    shareWith,
-    shareChoices,
-    onChange,
-    onNext,
-    onBack,
-    characterName
+  shareThrough,
+  shareWith,
+  shareChoices,
+  onChange,
+  onNext,
+  onBack,
+  characterName,
+  logClick
 }) {
-  
   const [throughIndex, setThroughIndex] = useState(() => {
     const index = shareThrough.findIndex(item => item.name === shareChoices.through);
     return index >= 0 ? index : 0;
@@ -21,24 +21,34 @@ export default function ShareDecision({
     return index >= 0 ? index : 0;
   });
 
-  // 主动同步初始选项到 shareChoices（只调用一次）
+  // 初始化 shareChoices，仅执行一次
   useEffect(() => {
     onChange({
       through: shareThrough[throughIndex].name,
       with: shareWith[withIndex].name
     });
-  }, []); // 只在初次加载时运行
+  }, []);
 
   const handleThroughChange = (dir) => {
     const newIndex = (throughIndex + dir + shareThrough.length) % shareThrough.length;
     setThroughIndex(newIndex);
-    onChange({ through: shareThrough[newIndex].name });
+    const newName = shareThrough[newIndex].name;
+    onChange({ through: newName });
+
+    logClick("click", `through-${dir > 0 ? 'right' : 'left'}`, {
+      newThrough: newName
+    });
   };
 
   const handleWithChange = (dir) => {
     const newIndex = (withIndex + dir + shareWith.length) % shareWith.length;
     setWithIndex(newIndex);
-    onChange({ with: shareWith[newIndex].name });
+    const newName = shareWith[newIndex].name;
+    onChange({ with: newName });
+
+    logClick("click", `with-${dir > 0 ? 'right' : 'left'}`, {
+      newWith: newName
+    });
   };
 
   const currentThrough = shareThrough[throughIndex];
@@ -49,7 +59,11 @@ export default function ShareDecision({
       <h2>Let’s help {characterName || '[Name]'} make a decision!</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${characterName.toLowerCase()}.png`} alt={characterName} />
+        <img
+          className="avatar"
+          src={`${import.meta.env.BASE_URL}avatars/${characterName.toLowerCase()}.png`}
+          alt={characterName}
+        />
         <div className="speech-bubble">
           <p>Ready? Let’s choose a scene to explore!</p>
         </div>
@@ -63,7 +77,10 @@ export default function ShareDecision({
               <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <div className="share-card purple">
-              <img src={`${import.meta.env.BASE_URL}${(currentThrough.icon || '/icons/icon-placeholder.png').slice(1)}`} alt={currentThrough.name} />
+              <img
+                src={`${import.meta.env.BASE_URL}${(currentThrough.icon || '/icons/icon-placeholder.png').slice(1)}`}
+                alt={currentThrough.name}
+              />
               <p>{currentThrough.name}</p>
             </div>
             <button className="arrow purple" onClick={() => handleThroughChange(1)}>
@@ -76,21 +93,38 @@ export default function ShareDecision({
           <h3 className="carousel-title orange-text">Share with</h3>
           <div className="carousel">
             <button className="arrow orange" onClick={() => handleWithChange(-1)}>
-            <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
+              <img src={`${import.meta.env.BASE_URL}icons/left-arrow.svg`} alt="left" />
             </button>
             <div className="share-card orange">
-            <img src={`${import.meta.env.BASE_URL}${(currentWith.icon || '/icons/icon-placeholder.png').slice(1)}`} alt={currentWith.name} />
+              <img
+                src={`${import.meta.env.BASE_URL}${(currentWith.icon || '/icons/icon-placeholder.png').slice(1)}`}
+                alt={currentWith.name}
+              />
               <p>{currentWith.name}</p>
             </div>
             <button className="arrow orange" onClick={() => handleWithChange(1)}>
-            <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
+              <img src={`${import.meta.env.BASE_URL}icons/right-arrow.svg`} alt="right" />
             </button>
           </div>
         </div>
       </div>
 
-      <button className="fixed-back-button" onClick={onBack}>Back</button>
-      <button className="fixed-next-button" onClick={onNext}>Next</button>
+      <button className="fixed-back-button" onClick={() => {
+        logClick("click", "sharedecision-back");
+        onBack();
+      }}>
+        Back
+      </button>
+
+      <button className="fixed-next-button" onClick={() => {
+        logClick("click", "sharedecision-next", {
+          finalThrough: currentThrough.name,
+          finalWith: currentWith.name
+        });
+        onNext();
+      }}>
+        Next
+      </button>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import './CharacterMessage.css';
 
-export default function CharacterMessage({ character, onNext, onBack }) {
+export default function CharacterMessage({ character, onNext, onBack, logClick }) {
   return (
     <div className="character-container">
       <h2>What should we do?</h2>
@@ -16,8 +16,24 @@ export default function CharacterMessage({ character, onNext, onBack }) {
           </div>
         </div>
       </div>
-      <button className="fixed-back-button" onClick={onBack}>Back</button>
-      <button className="fixed-next-button" onClick={onNext}>Next</button>
+      <button
+        className="fixed-back-button"
+        onClick={() => {
+          logClick("click", "character-message-back");
+          onBack();
+        }}
+      >
+        Back
+      </button>
+      <button
+        className="fixed-next-button"
+        onClick={() => {
+          logClick("click", "character-message-next");
+          onNext();
+        }}
+      >
+        Next
+      </button>
     </div>
   );
 }

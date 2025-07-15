@@ -2,7 +2,7 @@ import React from 'react';
 import tipsData from '../data/tipsData.json';
 import './TipsForYou.css';
 
-export default function TipsForYou({ character, sceneContext, onPickAnother, onRetry }) {
+export default function TipsForYou({ character, sceneContext, onPickAnother, onRetry, logClick }) {
   const { through, withWhom, info } = sceneContext;
 
   const safeInfo = info || 'unknown';
@@ -14,26 +14,48 @@ export default function TipsForYou({ character, sceneContext, onPickAnother, onR
 
   return (
     <div className="tips-container">
-        <h2>Tips for you</h2>
+      <h2>Tips for you</h2>
 
-        <div className="tips-content">
-            <div className="tips-row">
-            <div className="tip-card">
-                <h3>{tips.left.title}</h3>
-                <p>{tips.left.content}</p>
-            </div>
-            <div className="tip-card">
-                <h3>{tips.right.title}</h3>
-                <p>{tips.right.content}</p>
-            </div>
-            </div>
+      <div className="tips-content">
+        <div className="tips-row">
+          <div className="tip-card">
+            <h3>{tips.left.title}</h3>
+            <p>{tips.left.content}</p>
+          </div>
+          <div className="tip-card">
+            <h3>{tips.right.title}</h3>
+            <p>{tips.right.content}</p>
+          </div>
         </div>
+      </div>
 
-        <div className="tips-buttons">
-            <button onClick={onPickAnother}>Pick another friend</button>
-            <button onClick={onRetry}>Try again with {character.name || '[Name]'}</button>
-        </div>
-        
+      <div className="tips-buttons">
+        <button
+          onClick={() => {
+            logClick("click", "tips-pick-another", {
+              through: safeThrough,
+              withWhom: safeWithWhom,
+              info: safeInfo,
+            });
+            onPickAnother();
+          }}
+        >
+          Pick another friend
+        </button>
+
+        <button
+          onClick={() => {
+            logClick("click", "tips-retry", {
+              through: safeThrough,
+              withWhom: safeWithWhom,
+              info: safeInfo,
+            });
+            onRetry();
+          }}
+        >
+          Try again with {character.name || '[Name]'}
+        </button>
+      </div>
     </div>
   );
 }

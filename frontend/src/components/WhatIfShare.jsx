@@ -1,7 +1,7 @@
 import React from 'react';
 import './ReflectionScene.css'; // 样式直接用 ReflectionScene.css
 
-export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens, onSkipToTips }) {
+export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens, onSkipToTips, logClick }) {
   const { through, withWhom, info } = sceneContext;
 
   const cards = [
@@ -22,12 +22,20 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
     }
   ];
 
+  const safeThrough = through || 'unknown';
+  const safeWithWhom = withWhom || 'unknown';
+  const safeInfo = info || 'unknown';
+
   return (
     <div className="reflection-container">
       <h2>What could happen if we share this?</h2>
 
       <div className="character-speech">
-        <img className="avatar" src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`} alt={character.name} />
+        <img
+          className="avatar"
+          src={`${import.meta.env.BASE_URL}avatars/${character.name.toLowerCase()}.png`}
+          alt={character.name}
+        />
         <div className="speech-bubble">
           <p>Hmm... I wonder what might happen if I share this with others.</p>
         </div>
@@ -43,8 +51,33 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
       </div>
 
       <div className="decision-buttons">
-        <button className="risky-button" onClick={onSeeWhatHappens}>See what happens</button>
-        <button className="ok-button" onClick={onSkipToTips}>Skip to tips</button>
+        <button
+          className="risky-button"
+          onClick={() => {
+            logClick("click", "whatifshare-see", {
+              through: safeThrough,
+              withWhom: safeWithWhom,
+              info: safeInfo
+            });
+            onSeeWhatHappens();
+          }}
+        >
+          See what happens
+        </button>
+
+        <button
+          className="ok-button"
+          onClick={() => {
+            logClick("click", "whatifshare-skip", {
+              through: safeThrough,
+              withWhom: safeWithWhom,
+              info: safeInfo
+            });
+            onSkipToTips();
+          }}
+        >
+          Skip to tips
+        </button>
       </div>
     </div>
   );
