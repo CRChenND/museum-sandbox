@@ -197,7 +197,7 @@ function App() {
       />
     )}
 
-    {step === 5 && finalChoice === "non-share" && (
+    {step === 5 && finalChoice === "nonshare" && (
       <NonShareOutcome
         character={selectedChar}
         sceneContext={sceneContext}

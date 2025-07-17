@@ -48,7 +48,8 @@ export default function NonShareOutcome({ character, sceneContext, onBack, onNex
   };
 
   // 🚨 fallback UI if no steps available
-  if (!current) {
+  if (!Array.isArray(steps) || steps.length === 0) {
+    console.warn("No step data found for key:", key, "for character:", character.id);
     return (
       <div className="consequence-container">
         <h2>What will happen?</h2>

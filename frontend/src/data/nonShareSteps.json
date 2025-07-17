@@ -15,7 +15,7 @@
     "game_unknown_address": [
       {
         "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
-        "image": "/gifs/alpha/address/game\n_unknown_address_nonshare.gif"
+        "image": "/gifs/alpha/address/game_unknown_address_nonshare.gif"
       }
     ],
     "group_unknown_address": [
@@ -346,7 +346,7 @@
     "game_unknown_address": [
       {
         "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
-        "image": "/gifs/nia/address/game\n_unknown_address_nonshare.gif"
+        "image": "/gifs/nia/address/game_unknown_address_nonshare.gif"
       }
     ],
     "group_unknown_address": [
@@ -676,7 +676,7 @@
     "game_unknown_address": [
       {
         "speech": "That pop-up asked for my home address… but I don’t even know who sent it. Good thing we didn’t share!\"",
-        "image": "/gifs/ethan/address/game\n_unknown_address_nonshare.gif"
+        "image": "/gifs/ethan/address/game_unknown_address_nonshare.gif"
       }
     ],
     "group_unknown_address": [
