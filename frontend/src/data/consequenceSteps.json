@@ -126,7 +126,7 @@
         "image": "/gifs/alpha/chat_hacked.gif"
       }
     ],
-    "dm_unkown_birthday": [
+    "dm_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/alpha/birthday/dm_unknown_birthday_share.gif"
@@ -156,7 +156,7 @@
         "image": "/gifs/alpha/game_hacked.gif"
       }
     ],
-    "game_unkown_birthday": [
+    "game_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/alpha/birthday/game_unknown_birthday_share.gif"
@@ -194,7 +194,7 @@
         "image": "/gifs/alpha/spam.gif"
       }
     ],
-    "group_unkown_birthday": [
+    "group_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/alpha/birthday/group_unknown_birthday_share.gif"
@@ -334,37 +334,37 @@
     ],
     "dm_friend_ice": [
       {
-        "speech": "I shared with my friend that I like ice cream.",
+        "speech": "I shared with my friend that I like cookies.",
         "image": "/gifs/alpha/ice/dm_friend_ice_share.gif"
       }
     ],
     "dm_stranger_ice": [
       {
-        "speech": "I said I like ice cream to someone I don’t really know.",
+        "speech": "I said I like cookies to someone I don’t really know.",
         "image": "/gifs/alpha/ice/dm_stranger_ice_share.gif"
       }
     ],
     "game_friend_ice": [
       {
-        "speech": "Haha oops—I just said I like ice cream in front of everyone.",
+        "speech": "Haha oops—I just said I like cookies in front of everyone.",
         "image": "/gifs/alpha/ice/game_friend_ice_share.gif"
       }
     ],
     "game_stranger_ice": [
       {
-        "speech": "Oh… I told someone in the game I like ice cream.",
+        "speech": "Oh… I told someone in the game I like cookies.",
         "image": "/gifs/alpha/ice/game_stranger_ice_share.gif"
       }
     ],
     "group_friend_ice": [
       {
-        "speech": "I just told my friend I like ice cream… but in the group chat.",
+        "speech": "I just told my friend I like cookies… but in the group chat.",
         "image": "/gifs/alpha/ice/group_friend_ice_share.gif"
       }
     ],
     "group_stranger_ice": [
       {
-        "speech": "Haha oops—I just said I like ice cream in front of everyone.",
+        "speech": "Haha oops—I just said I like cookies in front of everyone.",
         "image": "/gifs/alpha/ice/group_stranger_ice_share.gif"
       }
     ],
@@ -583,7 +583,7 @@
         "image": "/gifs/nia/chat_hacked.gif"
       }
     ],
-    "dm_unkown_birthday": [
+    "dm_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/nia/birthday/dm_unknown_birthday_share.gif"
@@ -613,7 +613,7 @@
         "image": "/gifs/nia/game_hacked.gif"
       }
     ],
-    "game_unkown_birthday": [
+    "game_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/nia/birthday/game_unknown_birthday_share.gif"
@@ -651,7 +651,7 @@
         "image": "/gifs/nia/spam.gif"
       }
     ],
-    "group_unkown_birthday": [
+    "group_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/nia/birthday/group_unknown_birthday_share.gif"
@@ -791,13 +791,13 @@
     ],
     "dm_friend_ice": [
       {
-        "speech": "I shared with my friend that I like ice cream.",
+        "speech": "I shared with my friend that I like cup cake.",
         "image": "/gifs/nia/ice/dm_friend_ice_share.gif"
       }
     ],
     "dm_stranger_ice": [
       {
-        "speech": "I said I like ice cream to someone I don’t really know.",
+        "speech": "I said I like cup cake to someone I don’t really know.",
         "image": "/gifs/nia/ice/dm_stranger_ice_share.gif"
       }
     ],
@@ -809,19 +809,19 @@
     ],
     "game_stranger_ice": [
       {
-        "speech": "Oh… I told someone in the game I like ice cream.",
+        "speech": "Oh… I told someone in the game I like cupcake.",
         "image": "/gifs/nia/ice/game_stranger_ice_share.gif"
       }
     ],
     "group_friend_ice": [
       {
-        "speech": "I just told my friend I like ice cream… but in the group chat.",
+        "speech": "I just told my friend I like cup cake… but in the group chat.",
         "image": "/gifs/nia/ice/group_friend_ice_share.gif"
       }
     ],
     "group_stranger_ice": [
       {
-        "speech": "Haha oops—I just said I like ice cream in front of everyone.",
+        "speech": "Haha oops—I just said I like cup cake in front of everyone.",
         "image": "/gifs/nia/ice/group_stranger_ice_share.gif"
       }
     ],
@@ -1043,7 +1043,7 @@
         "image": "/gifs/ethan/chat_hacked.gif"
       }
     ],
-    "dm_unkown_birthday": [
+    "dm_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/ethan/birthday/dm_unknown_birthday_share.gif"
@@ -1073,7 +1073,7 @@
         "image": "/gifs/ethan/game_hacked.gif"
       }
     ],
-    "game_unkown_birthday": [
+    "game_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/ethan/birthday/game_unknown_birthday_share.gif"
@@ -1111,7 +1111,7 @@
         "image": "/gifs/ethan/spam.gif"
       }
     ],
-    "group_unkown_birthday": [
+    "group_unknown_birthday": [
       {
         "speech": "Wait... I entered my birthday.",
         "image": "/gifs/ethan/birthday/group_unknown_birthday_share.gif"

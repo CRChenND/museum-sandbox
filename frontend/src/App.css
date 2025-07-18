@@ -133,6 +133,22 @@ button:disabled {
   color: white;
 }
 
+.download-button {
+  position: absolute;
+  top: 2em;
+  margin: 1rem 1rem;
+  right: 6rem; /* 放在 reset 按钮左边 */
+  background-color: #e90198;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #e90198;
+}
+
 
 
 /* ===== Responsive Tweaks ===== */

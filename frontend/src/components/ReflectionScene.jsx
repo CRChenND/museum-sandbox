@@ -56,7 +56,24 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       ]
     },
     {
-      message: `What would I tell them? They asked for my ${info}!`,
+      message: (() => {
+        switch (info) {
+          case "address":
+            return "What would I tell them? They asked for my home address?";
+          case "city":
+            return "What would I tell them? They wanted to know which city I live in!";
+          case "color":
+            return "What would I tell them? They asked for my favorite color.";
+          case "ice":
+            return "What would I tell them? They asked about my favorite dessert!";
+          case "playground":
+            return "What would I tell them? They wanted to know where I hang out after school.";
+          case "trip":
+            return "What would I tell them? They asked about my last summer trip.";
+          default:
+            return `What would I tell them? They asked for my ${info}!`;
+        }
+      })(),
       cards: [
         {
           name:
@@ -87,7 +104,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
               : info === "color"
               ? "My favorite color"
               : info === "ice"
-              ? "I like ice cream"
+              ? "My favorite dessert"
               : info === "playground"
               ? "I go to playground after school"
               : info === "trip"
@@ -109,6 +126,8 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       setIndex(index + 1);
     } else {
       // last step handled by decision buttons
+      setIndexLocal(0);
+      setIndex(0);
     }
   };
 

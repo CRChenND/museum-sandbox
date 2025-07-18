@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import data from './data/data.json';
-import { logClick } from './utils/logger.js';
+// import { logClick } from './utils/logger.js';
+import { logClick, downloadLogs } from './utils/logger.js';
 import CharacterSelect from './components/CharacterSelect.jsx';
 import CharacterMessage from './components/CharacterMessage.jsx';
 import ShareDecision from './components/ShareDecision.jsx';
@@ -89,6 +90,12 @@ function App() {
   }, []);
 
   useEffect(() => {
+    if (step !== 4 && reflectionIndex !== 0) {
+      setReflectionIndex(0);
+    }
+  }, [step]);
+
+  useEffect(() => {
     const name = stepNameMap[step];
     console.log(`🟢 Step ${step}: ${name}`);
     console.log('  shareChoices:', shareChoices);
@@ -114,13 +121,18 @@ function App() {
 
   return (
     <div className="app">
-
-      {/* 右上角小圆点 */}
       <button 
         className="reset-button" 
         onClick={() => setShowResetPopup(true)}
         title="Reset"
       ></button>
+
+      <button 
+        className="download-button"
+        onClick={downloadLogs}
+        title="Download logs"
+      >
+      </button>
 
       {/* 弹窗 */}
       {showResetPopup && (

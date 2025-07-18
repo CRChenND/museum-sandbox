@@ -103,7 +103,17 @@ export default function TryCombo({ character, sceneContext, onTryCombo, logClick
           <h3 className="combo-title blue">Information</h3>
           <div className="combo-card blue">
             <img src={`${import.meta.env.BASE_URL}icons/info/${currentInfo}.png`} alt="info" />
-            <p>My {currentInfo}</p>
+            {/* <p>My {currentInfo}</p> */}
+            <p>{
+              currentInfo === 'address' ? 'My home address' : 
+              currentInfo === 'city' ? 'The city I live in' : 
+              currentInfo === 'color' ? 'My favorite color' : 
+              currentInfo === 'ice' ? 'Dessert I like' : 
+              currentInfo === 'playground' ? 'After-school spot' : 
+              currentInfo === 'trip' ? 'My trip' :
+              `My ${currentInfo}`
+            }
+            </p>
           </div>
           <div className="combo-buttons">
             <button className="arrow blue" onClick={() => handleInfoChange(-1)}>

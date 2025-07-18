@@ -2,7 +2,7 @@
     "game_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -12,7 +12,7 @@
     "game_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -22,7 +22,7 @@
     "game_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -32,7 +32,7 @@
     "group_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -42,7 +42,7 @@
     "dm_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -52,7 +52,7 @@
     "group_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -62,7 +62,7 @@
     "group_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -72,27 +72,27 @@
     "dm_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -102,7 +102,7 @@
     "game_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -112,7 +112,7 @@
     "group_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -122,7 +122,7 @@
     "group_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -132,27 +132,27 @@
     "dm_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -162,7 +162,7 @@
     "group_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -172,7 +172,7 @@
     "dm_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your birthday is very private. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
@@ -226,7 +226,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_city": {
@@ -236,7 +236,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_trip": {
@@ -266,7 +266,7 @@
       },
       "right": {
         "title": "Group Chat = Big Billboard",
-        "content": "Be careful what you share in group chats. Sharing your trip in a group chat is like writing it on a giant billboard where everyone can see it."
+        "content": "Sharing your trip in a group chat is like writing it on a giant billboard where everyone can see it. Be careful about who are in the chat before sharing your information."
       }
     },
     "group_friend_trip": {
@@ -276,7 +276,7 @@
       },
       "right": {
         "title": "Group Chat = Big Billboard",
-        "content": "Be careful what you share in group chats. Sharing your trip in a group chat is like writing it on a giant billboard where everyone can see it."
+        "content": "Sharing your trip in a group chat is like writing it on a giant billboard where everyone can see it. Be careful about who are in the chat before sharing your information."
       }
     },
     "dm_stranger_trip": {
@@ -286,7 +286,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_trip": {
@@ -296,7 +296,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_playground": {
@@ -346,7 +346,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_playground": {
@@ -356,7 +356,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_dog": {
@@ -406,7 +406,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_dog": {
@@ -416,7 +416,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_color": {
@@ -466,7 +466,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_color": {
@@ -476,7 +476,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "game_stranger_ice": {
@@ -526,7 +526,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     },
     "dm_friend_ice": {
@@ -536,7 +536,7 @@
       },
       "right": {
         "title": "Direct Message = Private Room?",
-        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still leak and be shared without your permission."
+        "content": "Be careful what you share in direct messages. Even though it feels private, your information can still be leaked and shared without your permission."
       }
     }
   }
