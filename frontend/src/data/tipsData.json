@@ -6,7 +6,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your address there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_address": {
@@ -16,7 +16,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your address there is like announcing it loudly in a public playground."
       }
     },
     "game_unknown_address": {
@@ -186,7 +186,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your city there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_city": {
@@ -196,7 +196,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your city there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_city": {
@@ -246,7 +246,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your trip there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_trip": {
@@ -256,7 +256,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your trip there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_trip": {
@@ -306,7 +306,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_playground": {
@@ -316,7 +316,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_playground": {
@@ -366,7 +366,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your pets there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_dog": {
@@ -376,7 +376,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your pets there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_dog": {
@@ -426,7 +426,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_color": {
@@ -436,7 +436,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_color": {
@@ -486,7 +486,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like announcing it loudly in a public playground."
       }
     },
     "game_friend_ice": {
@@ -496,7 +496,7 @@
       },
       "right": {
         "title": "Game Channel = public playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like announcing it loudly in a public playground."
       }
     },
     "group_stranger_ice": {
