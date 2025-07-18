@@ -6,7 +6,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
 
   const steps = [
     {
-      message: "Whew… Let’s think about what just happened together!",
+      message: "Whew... Let's think about what just happened!",
       cards: []
     },
     {
@@ -70,6 +70,8 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
             return "What would I tell them? They wanted to know where I hang out after school.";
           case "trip":
             return "What would I tell them? They asked about my last summer trip.";
+          case "dog":
+            return "What would I tell them? They asked about my dog.";
           default:
             return `What would I tell them? They asked for my ${info}!`;
         }

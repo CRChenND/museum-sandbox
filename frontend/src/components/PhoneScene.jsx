@@ -36,17 +36,17 @@ export default function PhoneScene({ character, shareChoices, onBack, onNext, se
     const key = `${withWhom}_${through}`;
 
     const messages = {
-      "stranger_group": "I'm chatting in a group. Someone I don't know is in the chat. Should I tell them this?",
-      "stranger_dm": "I'm messaging someone I don’t know directly. Should I tell them this?",
-      "stranger_game": "I'm chatting in a game room. A stranger is in there with me. Should I tell them this?",
+      "stranger_group": "I'm chatting in a group. Someone I don't know is in the chat. What should I tell them?",
+      "stranger_dm": "I'm messaging someone I don’t know directly. What should I tell them?",
+      "stranger_game": "I'm in a game. A stranger is there chatting with me. What should I tell them?",
 
-      "friend_group": "I'm chatting in a group. A friend is in the chat. Should I tell them this?",
-      "friend_dm": "I'm messaging a friend directly. Should I tell them this?",
-      "friend_game": "I'm chatting in a game room. A friend is playing with me. Should I tell them this?",
+      "friend_group": "I'm chatting in a group. A friend is in the chat. What should I tell them?",
+      "friend_dm": "I'm messaging a friend directly. What should I tell them?",
+      "friend_game": "I'm in a game. A friend is there chatting with me. What should I tell them?",
 
-      "unknown_group": "I'm chatting in a group. I'm not sure who is in there. Should I tell them this?",
-      "unknown_dm": "I'm messaging someone, but I’m not sure who they are. Should I tell them this?",
-      "unknown_game": "I'm chatting in a game room, but I don’t really know who else is there. Should I tell them this?",
+      "unknown_group": "I'm chatting in a group. I'm not sure who is in there. What should I tell them?",
+      "unknown_dm": "I'm messaging someone, but I’m not sure who they are. What should I tell them?",
+      "unknown_game": "I'm in a game, but I don’t really know who else is there. What should I tell them?",
     };
 
     return messages[key] || "I'm chatting online. Should I share this information?";
