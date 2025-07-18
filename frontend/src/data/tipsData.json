@@ -5,8 +5,8 @@
         "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_address": {
@@ -15,8 +15,8 @@
         "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your address there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_unknown_address": {
@@ -95,7 +95,7 @@
         "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
+        "title": "Game Channel = public playground",
         "content": "Be careful what you share in the game channel. Sharing your birthday in that space is like announcing it loudly in a public playground.."
       }
     },
@@ -105,7 +105,7 @@
         "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
+        "title": "Game Channel = public playground",
         "content": "Be careful what you share in the game channel. Sharing your birthday in that space is like announcing it loudly in a public playground.."
       }
     },
@@ -185,8 +185,8 @@
         "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_city": {
@@ -195,8 +195,8 @@
         "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your city there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_city": {
@@ -245,8 +245,8 @@
         "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_trip": {
@@ -255,8 +255,8 @@
         "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your trip there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_trip": {
@@ -305,8 +305,8 @@
         "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_playground": {
@@ -315,8 +315,8 @@
         "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your after-school plan there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_playground": {
@@ -365,8 +365,8 @@
         "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_dog": {
@@ -375,8 +375,8 @@
         "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your pets there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_dog": {
@@ -425,8 +425,8 @@
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_color": {
@@ -435,8 +435,8 @@
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_color": {
@@ -485,8 +485,8 @@
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
       }
     },
     "game_friend_ice": {
@@ -495,8 +495,8 @@
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
-        "title": "Game Channel = Open Playground",
-        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an open playground where everyone can hear."
+        "title": "Game Channel = public playground",
+        "content": "Be careful what you share in the game channel. Sharing your likes there is like shouting it in an public playground where everyone can hear."
       }
     },
     "group_stranger_ice": {
