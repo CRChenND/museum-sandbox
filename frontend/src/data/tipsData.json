@@ -421,7 +421,7 @@
     },
     "game_stranger_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -431,7 +431,7 @@
     },
     "game_friend_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -441,7 +441,7 @@
     },
     "group_stranger_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -451,7 +451,7 @@
     },
     "group_friend_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -461,7 +461,7 @@
     },
     "dm_stranger_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -471,7 +471,7 @@
     },
     "dm_friend_color": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -481,7 +481,7 @@
     },
     "game_stranger_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -491,7 +491,7 @@
     },
     "game_friend_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -501,7 +501,7 @@
     },
     "group_stranger_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -511,7 +511,7 @@
     },
     "group_friend_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -521,7 +521,7 @@
     },
     "dm_stranger_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
@@ -531,7 +531,7 @@
     },
     "dm_friend_ice": {
       "left": {
-        "title": "Watch Out for Likes Clues!",
+        "title": "Watch Out for Sharing Preferences!",
         "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {

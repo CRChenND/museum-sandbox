@@ -25,12 +25,12 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
       ]
     },
     {
-      message: `Who was I talking to? Hmm… ${
+      message: `Whom was I talking to? Hmm… ${
         withWhom === "friend"
-          ? "a friend"
+          ? "A friend"
           : withWhom === "stranger"
-          ? "a stranger"
-          : "someone I don’t really know"
+          ? "A stranger"
+          : "Someone I don’t really know"
       }!`,
       cards: [
         {
