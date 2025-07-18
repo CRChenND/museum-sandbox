@@ -69,7 +69,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
           case "playground":
             return "What would I tell them? They wanted to know where I hang out after school.";
           case "trip":
-            return "What would I tell them? They asked about my last summer trip.";
+            return "What would I tell them? They asked about my trip last summer.";
           case "dog":
             return "What would I tell them? They asked about my dog.";
           default:
@@ -110,7 +110,7 @@ export default function ReflectionScene({ character, onBack, onNext, sceneContex
               : info === "playground"
               ? "I go to playground after school"
               : info === "trip"
-              ? "My last summer trip"
+              ? "My trip last summer"
               : `My ${info}`,
           icon: `/icons/info/${info}.png`,
           color: "blue"

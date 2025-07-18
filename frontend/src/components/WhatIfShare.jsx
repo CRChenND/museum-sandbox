@@ -16,7 +16,7 @@ export default function WhatIfShare({ character, sceneContext, onSeeWhatHappens,
       color: "orange" 
     },
     { 
-      name: info === "address" ? "My home address" : info === "city" ? "The city I live in" : info === "color" ? "My favorite color" : info === "ice" ? "I like ice cream" : info === "playground" ? "I go to playground after school" : info === "trip" ? "My last summer trip" : `My ${info}`, 
+      name: info === "address" ? "My home address" : info === "city" ? "The city I live in" : info === "color" ? "My favorite color" : info === "ice" ? "I like ice cream" : info === "playground" ? "I go to playground after school" : info === "trip" ? "My trip last summer" : `My ${info}`, 
       icon: `/icons/info/${info}.png`, 
       color: "blue" 
     }
