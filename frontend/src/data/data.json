@@ -4,19 +4,19 @@
         "id": "alpha",
         "name": "Alpha",
         "avatar": "/avatars/alpha.png",
-        "message": "Hi! I'm Alpha. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
+        "message": "Hi! I'm Alpha. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share."
       },
       {
         "id": "nia",
         "name": "Nia",
         "avatar": "/avatars/nia.png",
-        "message": "Hi! I'm Nia. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
+        "message": "Hi! I'm Nia. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share."
       },
       {
         "id": "ethan",
         "name": "Ethan",
         "avatar": "/avatars/ethan.png",
-        "message": "Hi! I'm Ethan. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share and what I shouldn’t share."
+        "message": "Hi! I'm Ethan. Sometimes when I use my phone, I get a little confused because I’m not sure what I can share."
       }
     ],
     "shareThrough": [
