@@ -1,3 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* 禁止滚动 */
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Futura", "Helvetica Neue", Arial, sans-serif;
@@ -8,6 +21,7 @@ body {
 .app {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   text-align: center;
   box-sizing: border-box;
   display: flex;

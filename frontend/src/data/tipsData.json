@@ -2,7 +2,7 @@
     "game_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -12,7 +12,7 @@
     "game_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -22,37 +22,37 @@
     "game_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "group_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "dm_unknown_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "group_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -62,7 +62,7 @@
     "group_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -72,7 +72,7 @@
     "dm_stranger_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -82,7 +82,7 @@
     "dm_friend_address": {
       "left": {
         "title": "Keep Your Address Safe!",
-        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing! "
+        "content": "Your home address is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing! "
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -92,7 +92,7 @@
     "game_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -102,7 +102,7 @@
     "game_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -112,7 +112,7 @@
     "group_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -122,7 +122,7 @@
     "group_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -132,7 +132,7 @@
     "dm_stranger_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -142,7 +142,7 @@
     "dm_friend_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -152,37 +152,37 @@
     "game_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "group_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "dm_unknown_birthday": {
       "left": {
         "title": "Keep Your Birthday Safe!",
-        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents before sharing!"
+        "content": "Your date of birth is sensitive information. Sharing it online can be risky and even unsafe. Always ask parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Suspicious Pop-up",
-        "content": "Be careful! This pop-up might try to trick you into sharing private info. Don’t enter anything you’re unsure about!"
+        "content": "Be careful! This pop-up might try to trick you into sharing private information."
       }
     },
     "game_stranger_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -192,7 +192,7 @@
     "game_friend_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -202,7 +202,7 @@
     "group_stranger_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -212,7 +212,7 @@
     "group_friend_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -222,7 +222,7 @@
     "dm_stranger_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -232,7 +232,7 @@
     "dm_friend_city": {
       "left": {
         "title": "Keep Your City Private!",
-        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "The city you live in is personal information. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -242,7 +242,7 @@
     "game_stranger_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -252,7 +252,7 @@
     "game_friend_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -262,7 +262,7 @@
     "group_stranger_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -272,7 +272,7 @@
     "group_friend_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -282,7 +282,7 @@
     "dm_stranger_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -292,7 +292,7 @@
     "dm_friend_trip": {
       "left": {
         "title": "Keep Your Trip Details Private!",
-        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents right away!"
+        "content": "Sharing where you went on your trip might cause other problems. If someone asks and you feel uncomfortable, stop talking and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -302,7 +302,7 @@
     "game_stranger_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -312,7 +312,7 @@
     "game_friend_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -322,7 +322,7 @@
     "group_stranger_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -332,7 +332,7 @@
     "group_friend_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -342,7 +342,7 @@
     "dm_stranger_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -352,7 +352,7 @@
     "dm_friend_playground": {
       "left": {
         "title": "Keep Your Daily Plans Private!",
-        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents right away!"
+        "content": "Your daily routine is personal information. If someone asks and you feel uncomfortable, stop sharing and tell your parents or legal guardians right away!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -362,7 +362,7 @@
     "game_stranger_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -372,7 +372,7 @@
     "game_friend_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -382,7 +382,7 @@
     "group_stranger_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -392,7 +392,7 @@
     "group_friend_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -402,7 +402,7 @@
     "dm_stranger_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -412,7 +412,7 @@
     "dm_friend_dog": {
       "left": {
         "title": "Watch Out for Pets Clues!",
-        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your pets online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -422,7 +422,7 @@
     "game_stranger_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -432,7 +432,7 @@
     "game_friend_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -442,7 +442,7 @@
     "group_stranger_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -452,7 +452,7 @@
     "group_friend_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -462,7 +462,7 @@
     "dm_stranger_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -472,7 +472,7 @@
     "dm_friend_color": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -482,7 +482,7 @@
     "game_stranger_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -492,7 +492,7 @@
     "game_friend_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Game Channel = Open Playground",
@@ -502,7 +502,7 @@
     "group_stranger_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -512,7 +512,7 @@
     "group_friend_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Group Chat = Big Billboard",
@@ -522,7 +522,7 @@
     "dm_stranger_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
@@ -532,7 +532,7 @@
     "dm_friend_ice": {
       "left": {
         "title": "Watch Out for Likes Clues!",
-        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents before sharing!"
+        "content": "It might seem like a small thing, but sharing your likes online can sometimes give away clues about you. Be careful and ask your parents or legal guardians before sharing!"
       },
       "right": {
         "title": "Direct Message = Private Room?",
